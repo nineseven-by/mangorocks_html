@@ -1,3 +1,41 @@
 .page-footer{
 	flex-shrink: 0;
+	background: #2F3A5B;
+	box-shadow: 0px 4px 8px rgba(84, 110, 122, 0.24);
+	color: #fff;
+	padding: 27px 0;
+}
+.page-footer__top{
+	margin-bottom: 25px;
+}
+.page-footer__wrap{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.page-footer__link{
+	display: inline-block;
+	color: #fff;
+	margin-right: 33px;
+	&:last-child{
+		margin-right: 0;
+	}
+	&:hover{
+		color: #FF644B;
+	}
+}
+
+.page-footer__copy{
+	    display: inline-flex;
+    align-items: center;
+}
+
+.page-footer__age{
+    font-size: 13px;
+    line-height: 18px;
+    color: #C0C4CD;
+    border: 1px solid #C0C4CD;
+    border-radius: 5px;
+        padding: 3px 4px 1px;
+    margin-left: 5px;
 }

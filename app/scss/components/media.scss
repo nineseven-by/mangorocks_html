@@ -9,7 +9,145 @@
 
 
 //MEDIA
-@media screen and (max-width: 1400px){
-
+@media screen and (max-width: 1200px){
+	.container-fluid{
+		padding: 0 15px;
+	}
 }
 
+@media screen and (max-width: 992px){
+	.page-header__wrap {
+	    padding-left: 0;
+	}
+	.post-aside{
+		display: none;
+	}
+	.post__inner {
+	    padding: 0 15px;
+	}
+	.post__list{
+		padding: 15px 0;
+	}
+	.workarea hr{
+		margin: 15px 0;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.blog__item.m-md{
+		width: 50%;
+	}
+	.blog__item.m-md .blog__in {
+	    padding-bottom: 292px;
+	}
+	.blog__item.m-md .blog__img {
+	    height: 305px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	body{
+		font-size: 15px;
+	}
+	.workarea h1 {
+	    font-size: 24px;
+	    line-height: 30px;
+	}
+	.workarea h2 {
+	    font-size: 20px;
+	    line-height: 25px;
+	}
+	.workarea h2 {
+	    font-size: 16px;
+	    line-height: 20px;
+	}
+	.workarea blockquote{
+		padding: 15px;
+	}
+	.blog__txt,
+	.last-article__txt{
+	    font-size: 15px;
+	    line-height: 18px;
+	}
+
+	.blog__item.m-lg .blog__title,
+	.blog__item.m-md .blog__title{
+	    font-size: 20px;
+	    line-height: 25px;
+	}
+	.page-footer__wrap {
+	    flex-wrap: wrap;
+	}
+	.page-footer__links{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.page-footer__copy{
+		width: 100%;
+	}
+	.paging__item{
+		font-size: 15px;
+		margin-right: 4px;
+		margin-bottom: 4px;
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+	.paging__list{
+		flex-wrap:wrap;
+	}
+	.paging__next,
+	.paging__prev{
+	    font-size: 15px;
+	    padding: 15px 5px;
+	    width: 50%;
+	    text-align: center;
+	    span{
+	    	justify-content: center;
+	    }
+	}
+	.paging__next{
+		margin-left: 10px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.page-content {
+	    padding: 70px 0 40px;
+	}
+	.page-header{
+		background: #F2F2F2;
+    	box-shadow: none;
+	}
+	.blog__item.m-lg .blog__img,
+	.blog__item.m-md .blog__img{
+	    height: 192px;
+	    position: static;
+	}
+	.blog__item.m-lg .blog__in,
+	.blog__item.m-md .blog__in{
+		padding-bottom: 0;
+	}
+	.blog__item{
+		padding-right: 0;
+	}
+	.blog__item.m-lg,
+	.blog__item.m-md{
+		width: 100%;
+	}
+	.blog__wrap{
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.page-footer__link{
+		display: block;
+		margin-right: 0;
+		margin-bottom: 20px;
+		width: 100%;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+}
