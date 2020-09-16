@@ -237,7 +237,7 @@ body {
   height: 100%;
   background: #F2F2F2;
   -webkit-font-smoothing: antialiased;
-  font-size: 16px;
+  font-size: 20px;
   font-family: "cofo_sansregular", Arial, sans-serif;
   color: #303435;
   font-weight: 300;
@@ -323,8 +323,8 @@ textarea, input {
 .workarea {
   line-height: 1.3; }
   .workarea h1 {
-    font-size: 38px;
-    line-height: 48px;
+    font-size: 40px;
+    line-height: 50px;
     margin: 0;
     margin-bottom: 15px;
     font-weight: normal;
@@ -333,15 +333,15 @@ textarea, input {
     margin: 0;
     margin-bottom: 10px;
     font-weight: normal;
-    font-size: 26px;
-    line-height: 33px;
+    font-size: 28px;
+    line-height: 35px;
     font-family: 'cofo_medium'; }
   .workarea h3 {
     margin: 0;
     margin-bottom: 10px;
     font-weight: normal;
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 24px;
+    line-height: 30px;
     font-family: 'cofo_medium'; }
   .workarea p {
     margin: 0;
@@ -432,8 +432,8 @@ textarea, input {
         top: 0px;
         font-size: 16px; }
   .workarea figcaption {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 20px;
     letter-spacing: 0.25px;
     color: #7E8597;
     border-bottom: 1px solid #DBDFE2;
@@ -549,14 +549,14 @@ textarea, input {
       color: #FF5746; }
 
 .blog__top {
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 15px;
+  line-height: 18px;
   color: #7E8597;
   margin-bottom: 14px; }
 
 .blog__txt {
-  font-size: 16px;
-  line-height: 20px; }
+  font-size: 18px;
+  line-height: 24px; }
 
 .blog__info {
   padding: 26px 29px; }
@@ -708,6 +708,19 @@ textarea, input {
   .socials__link.ok {
     background: url(../img/svg/ok.svg) no-repeat; }
 
+.figure__link {
+  overflow: hidden;
+  display: block; }
+  .figure__link img {
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease; }
+  .figure__link:hover img {
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05); }
+
 .post {
   overflow: hidden; }
 
@@ -752,16 +765,16 @@ textarea, input {
     color: #FF5746; }
 
 .last-article__title {
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 26px;
+  line-height: 32px;
   margin-bottom: 20px;
   font-family: 'cofo_medium';
   -webkit-transition: color .3s ease;
   transition: color .3s ease; }
 
 .last-article__txt {
-  font-size: 16px;
-  line-height: 20px; }
+  font-size: 18px;
+  line-height: 22px; }
 
 .post__inner figure {
   margin: 0 0 20px 0; }
@@ -847,7 +860,7 @@ textarea, input {
 
 @media screen and (max-width: 768px) {
   body {
-    font-size: 15px; }
+    font-size: 17px; }
   .workarea h1 {
     font-size: 24px;
     line-height: 30px; }
@@ -861,8 +874,8 @@ textarea, input {
     padding: 15px; }
   .blog__txt,
   .last-article__txt {
-    font-size: 15px;
-    line-height: 18px; }
+    font-size: 17px;
+    line-height: 20px; }
   .blog__item.m-lg .blog__title,
   .blog__item.m-md .blog__title {
     font-size: 20px;
