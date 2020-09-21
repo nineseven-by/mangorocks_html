@@ -200,8 +200,9 @@
 					</div>
 					<div class="paging">
 						<div class="paging__top">
-							<a href="#" class="paging__prev"><span>Сюда</span></a>
-							<a href="#" class="paging__next"><span>Туда</span></a>
+							<a href="#" class="paging__toggle paging__prev"><span>Сюда</span></a>
+							<a href="#" class="paging__toggle paging__next"><span>Туда</span></a>
+
 						</div>
 						<div class="paging__list">
 							<span class="paging__item active">1</span>
@@ -226,7 +227,7 @@
 						<a href="#" class="page-footer__link">Мы в Telegram</a>
 					</div>
 					<div class="page-footer__copy">
-						&copy; Проект компании «Манго Страхование».
+						&copy; Проект компании <span>«Манго Страхование».</span>
 						<div class="page-footer__age">18+</div>
 					</div>
 				</div>
@@ -237,5 +238,14 @@
 
 		<script src="js/libs.min.js"></script>
 		<script src="js/interface.js"></script>
+
+		<script type="text/javascript">
+			$(".paging__toggle").mouseenter(function() {
+			    $(this).siblings(".paging__toggle").addClass('unactive');
+			    
+			}).mouseleave(function() {
+			    $(this).siblings(".paging__toggle").removeClass('unactive');
+			});
+		</script>
 	</body>
 </html>
