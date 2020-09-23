@@ -43,6 +43,15 @@
     	margin-left: 6px;
     	font-family: 'avenirnextcyr-medium';
     }
+    a{
+        display: inline-block;
+        margin-left: 5px;
+        color: #fff;
+        &:hover{
+           color: #FF644B;
+           text-decoration: none; 
+        }
+    }
 }
 
 .page-footer__age{
