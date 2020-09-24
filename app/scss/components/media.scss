@@ -84,6 +84,7 @@
 	}
 	.page-footer__copy{
 		width: 100%;
+		font-size: 12px;
 	}
 	.paging__item{
 		font-size: 15px;
@@ -109,16 +110,19 @@
 	.paging__next{
 		margin-left: 10px;
 	}
+	.blog__top{
+		font-size: 14px;
+	}
 }
 
 @media screen and (max-width: 600px){
 	.page-content {
-	    padding: 70px 0 40px;
+	    padding: 80px 0 40px;
 	}
-	.page-header{
-		background: #F2F2F2;
-    	box-shadow: none;
-	}
+	// .page-header{
+	// 	background: #F2F2F2;
+ //    	box-shadow: none;
+	// }
 	.blog__item.m-lg .blog__img,
 	.blog__item.m-md .blog__img{
 	    height: 192px;
