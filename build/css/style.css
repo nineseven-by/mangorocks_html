@@ -310,7 +310,7 @@ textarea, input {
 
 .page-header {
   background: #fff;
-  position: fixed;
+  /*position: fixed;*/
   left: 0;
   top: 0;
   padding: 25px 0 22px;
@@ -500,7 +500,7 @@ textarea, input {
   margin: 0 auto; }
 
 .page-content {
-  padding: 100px 0 40px; }
+  padding: 50px 0 40px; }
 
 .blog {
   overflow: hidden; }
@@ -514,11 +514,7 @@ textarea, input {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
   margin-right: -20px;
-  margin-bottom: 20px;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-      -ms-flex-align: start;
-          align-items: flex-start; }
+  margin-bottom: 20px; }
 
 .blog__item {
   padding-right: 20px;
@@ -954,7 +950,7 @@ textarea, input {
 
 @media screen and (max-width: 600px) {
   .page-content {
-    padding: 70px 0 40px; }
+    padding: 40px 0 40px; }
   .page-header {
     background: #F2F2F2;
     -webkit-box-shadow: none;
