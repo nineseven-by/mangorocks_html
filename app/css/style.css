@@ -310,9 +310,6 @@ textarea, input {
 
 .page-header {
   background: #fff;
-  position: fixed;
-  left: 0;
-  top: 0;
   padding: 25px 0 22px;
   -webkit-box-shadow: 0px 4px 8px rgba(176, 190, 197, 0.24);
           box-shadow: 0px 4px 8px rgba(176, 190, 197, 0.24);
@@ -500,7 +497,7 @@ textarea, input {
   margin: 0 auto; }
 
 .page-content {
-  padding: 100px 0 40px; }
+  padding: 20px 0 40px; }
 
 .blog {
   overflow: hidden; }
@@ -676,6 +673,7 @@ textarea, input {
           justify-content: center; }
 
 .paging__item {
+  height: 49px;
   background: rgba(219, 223, 226, 0.4);
   font-size: 16px;
   color: #263238;
@@ -967,7 +965,7 @@ textarea, input {
 
 @media screen and (max-width: 600px) {
   .page-content {
-    padding: 80px 0 40px; }
+    padding: 15px 0 40px; }
   .blog__item.m-lg .blog__img,
   .blog__item.m-md .blog__img {
     height: 192px;
