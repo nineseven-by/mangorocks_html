@@ -533,10 +533,13 @@ textarea, input {
       height: 198px; }
 
 .blog__title {
+  display: block;
   font-family: 'cofo_medium';
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  color: #303435;
+  z-index: 3; }
 
 .blog__in {
   display: block;
@@ -558,6 +561,14 @@ textarea, input {
       -webkit-transform: scale(1.05);
           -ms-transform: scale(1.05);
               transform: scale(1.05); }
+
+.blog__full_link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1; }
 
 .blog__top {
   font-size: 15px;
