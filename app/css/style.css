@@ -539,7 +539,8 @@ textarea, input {
   transition: all .3s ease;
   margin-bottom: 15px;
   color: #303435;
-  z-index: 3; }
+  z-index: 3;
+  position: relative; }
 
 .blog__in {
   display: block;
