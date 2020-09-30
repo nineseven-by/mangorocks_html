@@ -552,7 +552,8 @@ textarea, input {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  cursor: pointer; }
   .blog__in:hover {
     -webkit-box-shadow: 10px 10px 40px rgba(47, 58, 91, 0.2);
             box-shadow: 10px 10px 40px rgba(47, 58, 91, 0.2); }

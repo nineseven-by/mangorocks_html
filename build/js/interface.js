@@ -15,6 +15,21 @@ $(document).ready(function() {
 	      	$(this).attr("target","_blank");
 	   	}
 	});
+
+	if ($('.blog').length>0) {
+		$('.blog__in').addClass('clickable').click( function() {
+			window.location = $(this).attr('data-href');
+		}).find('a').hover( function() {
+			$(this).parents('.blog__in').unbind('click');
+		}, function() {
+			$(this).parents('.blog__in').click( function() {
+				window.location = $(this).attr('data-href');
+			});
+		});
+		$('.blog__in').find('a, button').focus(function() {
+			$(this).parents('.blog__in').unbind('click');
+		});
+}
 });
 
 
