@@ -113,6 +113,12 @@
 	.blog__top{
 		font-size: 13px;
 	}
+	.workarea ol li:before{
+		top: 1px;
+	}
+	.workarea ul li:before {
+	    top: 7.5px;
+	}
 }
 
 @media screen and (max-width: 600px){
