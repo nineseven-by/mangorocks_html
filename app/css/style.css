@@ -761,6 +761,12 @@ textarea, input {
         -ms-transform: scale(1.05);
             transform: scale(1.05); }
 
+.fb_iframe_widget {
+  max-width: 100%; }
+
+.fb_iframe_widget span {
+  max-width: 100%; }
+
 .post {
   overflow: hidden; }
 

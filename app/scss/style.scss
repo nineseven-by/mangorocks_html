@@ -362,6 +362,14 @@
 }
 
 
+.fb_iframe_widget{
+	max-width: 100%;
+}
+.fb_iframe_widget span{
+	max-width: 100%;
+}
+
+
 @import "components/post";
 
 @import "components/footer";
