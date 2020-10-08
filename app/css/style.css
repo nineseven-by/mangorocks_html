@@ -767,6 +767,12 @@ textarea, input {
 .fb_iframe_widget span {
   max-width: 100%; }
 
+img.emoji {
+  margin: 0 2px 0 0 !important; }
+
+.wp-block-column p .figure__link {
+  display: inline; }
+
 .post {
   overflow: hidden; }
 

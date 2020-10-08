@@ -370,6 +370,17 @@
 }
 
 
+img.emoji {
+    margin: 0 2px 0 0!important;
+}
+.wp-block-column{
+	p{
+		.figure__link{
+			display: inline;
+		}
+	}
+}
+
 @import "components/post";
 
 @import "components/footer";
