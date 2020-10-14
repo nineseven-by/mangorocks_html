@@ -748,15 +748,15 @@ textarea, input {
   .socials__link.ok {
     background: url(../img/svg/ok.svg) no-repeat; }
 
-.figure__link {
+.wp-block-image .figure__link {
   overflow: hidden;
   display: block; }
-  .figure__link img {
+  .wp-block-image .figure__link img {
     -webkit-transition: -webkit-transform 0.3s ease;
     transition: -webkit-transform 0.3s ease;
     transition: transform 0.3s ease;
     transition: transform 0.3s ease, -webkit-transform 0.3s ease; }
-  .figure__link:hover img {
+  .wp-block-image .figure__link:hover img {
     -webkit-transform: scale(1.05);
         -ms-transform: scale(1.05);
             transform: scale(1.05); }
