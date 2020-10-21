@@ -116,6 +116,19 @@
 	.workarea ol li:before{
 		top: 1px;
 	}
+	.switch__item label {
+	    padding: 8px 5px;
+	    width: 135px;
+	}
+	.m-complex__wrap,
+	.blog__item.m-lg.m-complex .m-complex__wrap {
+	    padding: 20px 29px;
+	}
+	.blog__item.m-md.m-complex .blog__title,
+	.blog__item.m-lg.m-complex .blog__title {
+	    font-size: 20px;
+	    line-height: 25px;
+	}
 }
 
 @media screen and (max-width: 600px){
@@ -144,6 +157,32 @@
 	}
 	.blog__wrap{
 		margin-right: 0;
+	}
+	.main-top h1{
+		font-size: 20px;
+		line-height: 25px;
+		br{
+			display: none;
+		}
+	}
+	.main-top {
+	    padding: 13px;
+	}
+	.switch{
+		position: static;
+		transform: none;
+		width: 100%;
+		margin-top: 20px;
+	}
+	.switch__item{
+		width: 50%;
+		label{
+			width: 100%;
+		}
+	}
+	.blog__item.m-complex .blog__in,
+	.blog__item.m-lg.m-complex .blog__in{
+	    padding: 20px 0;
 	}
 }
 

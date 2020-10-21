@@ -29,7 +29,21 @@ $(document).ready(function() {
 		$('.blog__in').find('a, button').focus(function() {
 			$(this).parents('.blog__in').unbind('click');
 		});
-}
+	}
+
+
+
+    $("[name=radio-head]").change(function(){
+        if($('#switch-most').is(':checked')) { 
+        	$('.blog__wrap').addClass('m-hidden');
+        	$('#most_interesting').removeClass('m-hidden');
+        }
+        else{
+        	$('.blog__wrap').addClass('m-hidden');
+        	$('#all').removeClass('m-hidden');
+        }
+    });
+
 });
 
 
