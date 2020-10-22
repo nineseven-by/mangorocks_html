@@ -505,18 +505,34 @@ img.emoji {
 		}
 	}
 }
-// img.wp-smiley, img.emoji {
-//     display: inline !important;
-//     border: none !important;
-//     box-shadow: none !important;
-//     height: 1em !important;
-//     width: 1em !important;
-//     margin: 0 .07em !important;
-//     vertical-align: -0.1em !important;
-//     background: none !important;
-//     padding: 0 !important;
-// }
-
+.author-top{
+	padding: 0 43px 17px;
+	border-radius: 10px;
+	box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
+	background: #fff;
+	margin: 35px 0 20px;
+	.blog__icon{
+		width: 115px;
+		height: 115px;
+		margin: -37px 22px 0 0;
+		&:after{
+			display: none;
+		}
+	}
+	.blog__top{
+		align-items: flex-end;
+		margin-bottom: 0;
+		span{
+			font-size: 38px;
+			line-height: 48px;
+			color: #263238;
+			font-family: 'cofo_medium';
+			display: block;
+			position: relative;
+			top: -7px;
+		}
+	}
+}
 
 @import "components/post";
 @import "components/main";

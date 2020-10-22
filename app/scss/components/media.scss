@@ -194,6 +194,28 @@
 	.blog__wrap .main-top{
 		padding-right: 0;
 	}
+	.author-top .blog__top span {
+	    font-size: 24px;
+	    line-height: 30px;
+	}
+	.author-top .blog__top{
+		align-items: flex-start;
+		justify-content: center;
+	}
+	.author-top{
+		position: relative;
+		
+		padding: 45px 10px 10px;
+	}
+	.author-top .blog__icon {
+	    width: 68px;
+	    height: 68px;
+	    margin: 0;
+	    position: absolute;
+	    left: 50%;
+	    transform: translateX(-50%);
+	    top: -40px;
+	}
 }
 
 @media screen and (max-width: 500px){
