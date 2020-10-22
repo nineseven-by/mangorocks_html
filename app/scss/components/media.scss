@@ -31,15 +31,15 @@
 	.workarea hr{
 		margin: 15px 0;
 	}
+	.blog__item.m-combined .blog__in {
+	    height: 100%;
+	}
 }
 
 @media screen and (max-width: 900px){
 	.blog__item.m-md{
 		width: 50%;
 	}
-	// .blog__item.m-md .blog__in {
-	//     padding-bottom: 292px;
-	// }
 	.blog__item.m-md .blog__img {
 	    height: 305px;
 	}
@@ -135,10 +135,6 @@
 	.page-content {
 	    padding: 15px 0 40px;
 	}
-	// .page-header{
-	// 	background: #F2F2F2;
- //    	box-shadow: none;
-	// }
 	.blog__item.m-lg .blog__img,
 	.blog__item.m-md .blog__img{
 	    height: 192px;
@@ -185,6 +181,14 @@
 	.blog__item.m-complex .blog__in,
 	.blog__item.m-lg.m-complex .blog__in{
 	    padding: 20px 0;
+	}
+	.blog__item.m-combined .blog__img {
+	    min-height: inherit;
+	    position: absolute;
+	}
+	.blog__item.m-combined .blog__in {
+	    height: auto;
+	    min-height: 270px;
 	}
 }
 

@@ -590,6 +590,45 @@ textarea, input {
     .blog__item.m-complex .blog__in:last-child {
       border-bottom: 0;
       padding-bottom: 0; }
+  .blog__item.m-combined .blog__in {
+    height: auto;
+    min-height: 411px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .blog__item.m-combined .blog__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    .blog__item.m-combined .blog__img:after {
+      content: "";
+      display: block;
+      background: -webkit-gradient(linear, left bottom, left top, from(#192024), color-stop(22.28%, #192024), color-stop(93%, rgba(38, 50, 56, 0)));
+      background: linear-gradient(360deg, #192024 0%, #192024 22.28%, rgba(38, 50, 56, 0) 93%);
+      opacity: 0.6;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0; }
+  .blog__item.m-combined .blog__info {
+    color: #fff;
+    z-index: 2; }
+  .blog__item.m-combined .blog__top,
+  .blog__item.m-combined .blog__title {
+    color: #fff; }
 
 .m-complex__wrap {
   background: #fff;
@@ -1042,7 +1081,9 @@ img.emoji {
   .post__list {
     padding: 15px 0; }
   .workarea hr {
-    margin: 15px 0; } }
+    margin: 15px 0; }
+  .blog__item.m-combined .blog__in {
+    height: 100%; } }
 
 @media screen and (max-width: 900px) {
   .blog__item.m-md {
@@ -1158,7 +1199,13 @@ img.emoji {
       width: 100%; }
   .blog__item.m-complex .blog__in,
   .blog__item.m-lg.m-complex .blog__in {
-    padding: 20px 0; } }
+    padding: 20px 0; }
+  .blog__item.m-combined .blog__img {
+    min-height: inherit;
+    position: absolute; }
+  .blog__item.m-combined .blog__in {
+    height: auto;
+    min-height: 270px; } }
 
 @media screen and (max-width: 500px) {
   .page-footer__link {

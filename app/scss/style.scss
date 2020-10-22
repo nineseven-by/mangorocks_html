@@ -160,6 +160,45 @@
     		}
 		}
 	}
+	&.m-combined{
+		.blog__in{
+			height: auto;
+			min-height: 411px;
+			display: flex;
+		    justify-content: flex-end;
+		    flex-direction: column;
+		}
+		.blog__img{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			&:after{
+				content: "";
+				display: block;
+				background: linear-gradient(360deg, #192024 0%, #192024 22.28%, rgba(38, 50, 56, 0) 93%);
+				opacity: 0.6;
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+		}
+		.blog__info{
+			
+			// display: flex;
+			// flex-direction: column;
+			// justify-content: flex-end;
+			color: #fff;
+			z-index: 2;
+		}
+		.blog__top,
+		.blog__title{
+			color: #fff;
+		}
+	}
 }
 .m-complex__wrap{
 	background: #fff;
