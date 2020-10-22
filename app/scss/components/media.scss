@@ -154,7 +154,8 @@
 	.blog__wrap{
 		margin-right: 0;
 	}
-	.main-top h1{
+	.main-top h1,
+	.blog__title-txt{
 		font-size: 20px;
 		line-height: 25px;
 		br{
@@ -189,6 +190,9 @@
 	.blog__item.m-combined .blog__in {
 	    height: auto;
 	    min-height: 270px;
+	}
+	.blog__wrap .main-top{
+		padding-right: 0;
 	}
 }
 
