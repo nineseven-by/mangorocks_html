@@ -316,9 +316,6 @@ textarea, input {
   width: 100%;
   z-index: 5; }
 
-.page-header__wrap {
-  padding-left: 95px; }
-
 .logo {
   display: inline-block;
   font-size: 20px;
@@ -940,7 +937,6 @@ img.emoji {
   border-radius: 10px;
   margin-bottom: 20px;
   text-align: center;
-  padding: 37px 20px 30px 20px;
   overflow: hidden;
   border-bottom: 5px solid #FF644B; }
   .main-top h1 {
@@ -953,6 +949,8 @@ img.emoji {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center; }
+  .main-top .blog__in {
+    padding: 37px 20px 30px 20px; }
 
 .page-footer {
   -webkit-flex-shrink: 0;
@@ -1145,7 +1143,7 @@ img.emoji {
     line-height: 25px; }
     .main-top h1 br {
       display: none; }
-  .main-top {
+  .main-top .blog__in {
     padding: 13px; }
   .switch {
     position: static;

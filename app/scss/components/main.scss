@@ -4,7 +4,7 @@
 	border-radius: 10px;
 	margin-bottom: 20px;
 	text-align: center;
-	padding: 37px 20px 30px 20px;
+	
 	overflow: hidden;
 	border-bottom: 5px solid #FF644B; 
 	h1{
@@ -15,5 +15,8 @@
 	.blog__top{
 		font-size: 13px;
 		justify-content: center;
+	}
+	.blog__in{
+		padding: 37px 20px 30px 20px;
 	}
 }
