@@ -662,8 +662,7 @@ textarea, input {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
   position: relative;
-  overflow: hidden;
-  cursor: pointer; }
+  overflow: hidden; }
   .blog__in:hover {
     -webkit-box-shadow: 10px 10px 40px rgba(47, 58, 91, 0.2);
             box-shadow: 10px 10px 40px rgba(47, 58, 91, 0.2); }
@@ -721,14 +720,16 @@ textarea, input {
 
 .blog__txt {
   font-size: 18px;
-  line-height: 24px; }
+  line-height: 24px;
+  color: #000; }
 
 .blog__info {
   padding: 26px 29px; }
 
 .blog__img {
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  display: block; }
   .blog__img img {
     display: block;
     max-width: 100%;
