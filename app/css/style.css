@@ -695,11 +695,12 @@ textarea, input {
       -ms-flex-align: center;
           align-items: center; }
 
-a.blog__top {
+.blog__top__person {
   -webkit-transition: color .3s ease;
   transition: color .3s ease; }
-  a.blog__top:hover {
-    color: #FF5746; }
+
+a.blog__top:hover .blog__top__person {
+  color: #FF5746; }
 
 .blog__icon {
   width: 22px;

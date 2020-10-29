@@ -264,10 +264,16 @@
 	display: flex;
 		align-items:center;
 }
-a.blog__top{
+.blog__top__person{
 	transition: color .3s ease;
+}
+a.blog__top{
+	
 	&:hover{
-		color: #FF5746;
+		.blog__top__person{
+
+			color: #FF5746;
+		}
 	}
 }
 .blog__icon{
