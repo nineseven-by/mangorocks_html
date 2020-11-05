@@ -16,6 +16,7 @@
     	h2{
     		font-size: 32px;
 			line-height: 40px;
+			margin-top: 45px;
     	}
     	h3{
     		font-size: 26px;
@@ -36,6 +37,9 @@
     		}
     		&.t-indent{
     			margin-bottom: 35px;
+    		}
+    		&.has-small-font-size{
+    			line-height: 17px;
     		}
     	}
     	blockquote{
@@ -233,11 +237,11 @@
 	font-size: 23px;
 	line-height: 30px;
 }
-.wp-block-columns{
-	&.m-txt-lg{
-		margin-bottom: 45px;
-	}
-}
+// .wp-block-columns{
+// 	&.m-txt-lg{
+// 		margin-bottom: 45px;
+// 	}
+// }
 
 
 .pets-top__add{

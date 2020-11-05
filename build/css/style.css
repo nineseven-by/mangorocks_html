@@ -1049,7 +1049,8 @@ img.emoji {
     margin-bottom: 22px; }
   .m-pets .workarea h2 {
     font-size: 32px;
-    line-height: 40px; }
+    line-height: 40px;
+    margin-top: 45px; }
   .m-pets .workarea h3 {
     font-size: 26px;
     line-height: 33px;
@@ -1066,6 +1067,8 @@ img.emoji {
       margin-bottom: 0; }
     .m-pets .workarea p.t-indent {
       margin-bottom: 35px; }
+    .m-pets .workarea p.has-small-font-size {
+      line-height: 17px; }
   .m-pets .workarea blockquote {
     font-size: 26px;
     line-height: 33px;
@@ -1281,9 +1284,6 @@ img.emoji {
 .m-txt-lg {
   font-size: 23px;
   line-height: 30px; }
-
-.wp-block-columns.m-txt-lg {
-  margin-bottom: 45px; }
 
 .pets-top__add {
   letter-spacing: 0.25px; }
