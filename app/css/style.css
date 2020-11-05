@@ -1108,10 +1108,7 @@ img.emoji {
     font-size: 16px;
     line-height: 20px;
     padding-right: 30px;
-    padding-left: 100px;
-    margin: 25px 0 35px 25px;
-    font-size: 14px;
-    line-height: 20px; }
+    padding-left: 100px; }
     .m-pets .wp-block-columns.snippet-link .wp-block-column:not(:first-child) .wp-block-image {
       margin: 0 0 10px 0;
       border-radius: 10px;
@@ -1500,7 +1497,11 @@ img.emoji {
   .m-pets .wp-block-columns.snippet-link .wp-block-column:not(:first-child) .wp-block-image {
     margin: 0 10px 0 0;
     max-width: 95px;
-    min-width: 95px; } }
+    min-width: 95px; }
+  .wp-block-columns.snippet-link .wp-block-column:not(:first-child) {
+    margin: 25px 0 35px 25px;
+    font-size: 14px;
+    line-height: 20px; } }
 
 @media screen and (max-width: 600px) {
   .page-content {
