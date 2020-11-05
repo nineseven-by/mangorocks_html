@@ -1,0 +1,248 @@
+.m-pets{
+	.page-content{
+		padding: 26px 0 40px 20px;
+	}
+	.post__inner {
+	    padding: 0 380px 0 30px;
+	}
+	.workarea{
+		font-size: 21px;
+    	line-height: 29px;
+    	h1{
+    		font-size: 38px;
+			line-height: 48px;
+			margin-bottom: 22px;
+    	}
+    	h2{
+    		font-size: 32px;
+			line-height: 40px;
+    	}
+    	h3{
+    		font-size: 26px;
+			line-height: 33px;
+			margin-bottom: 25px;
+    	}
+    	h4{
+    		font-size: 24px;
+			line-height: 30px;
+    		font-weight: normal;
+    		font-family: 'cofo_medium';
+    		margin: 0 0 17px 0;
+    	}
+    	p{
+    		margin-bottom: 17px;
+    		&:last-child{
+    			margin-bottom: 0;
+    		}
+    		&.t-indent{
+    			margin-bottom: 35px;
+    		}
+    	}
+    	blockquote{
+    		font-size: 26px;
+		    line-height: 33px;
+		    text-align: center;
+		    color: #263238;
+		    background: transparent;
+		    border-radius: 0;
+		    border: 0;
+		    padding: 30px 15px;
+		    position: relative;
+		    font-family: 'cofo_medium';
+		    &:before{
+		    	content: "";
+		    	display: inline-block;
+		    	width: 222px;
+		    	height: 9px;
+		    	background: url(../img/svg/bq.svg) no-repeat;
+		    	position: absolute;
+		    	top: 0;
+		    	left: 50%;
+		    	transform: translateX(-50%);
+		    }
+		    &:after{
+		    	content: "";
+		    	display: inline-block;
+		    	width: 222px;
+		    	height: 9px;
+		    	background: url(../img/svg/bq.svg) no-repeat;
+		    	position: absolute;
+		    	bottom: 0;
+		    	left: 50%;
+		    	transform: translateX(-50%);
+		    }
+    	}
+	}
+	.wp-block-columns{
+		&.snippet-link{
+			margin-right: -380px;
+			.wp-block-column{
+				&:not(:first-child){
+					font-size: 16px;
+					line-height: 20px;
+					padding-right: 30px;
+					padding-left: 100px;
+					margin: 25px 0 35px 25px;
+					font-size: 14px;
+					line-height: 20px;
+					.wp-block-image{
+					    margin: 0 0 10px 0;
+					    border-radius: 10px;
+					    overflow: hidden;
+					        display: inline-flex;
+					        width: 95px;
+					    img{
+					    	display: block;
+					    }
+					}
+				}
+			}
+		}
+	}
+}
+
+// WP
+.wp-block-column {
+    flex-grow: 1;
+    min-width: 0;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    flex-grow: 0;
+}
+.wp-block-columns {
+    display: flex;
+    margin-bottom: 28px;
+    flex-wrap: nowrap;
+}
+// end WP
+
+
+.pets-top{
+	display: flex;
+	flex-direction:column;
+	margin-bottom: 29px;
+}
+
+.pets-top__img{
+	img{
+		display: block;
+		max-width: 100%;
+	}
+}
+.pets-top__info{
+	display: flex;
+	flex-wrap:wrap;
+	margin-bottom: 19px;
+	font-size: 14px;
+	line-height: 1;
+}
+.pets-top__part{
+	display: flex;
+	align-items:center;
+	padding: 0 19px;
+	position: relative;
+	&:after{
+		content: "";
+		display: inline-block;
+		width: 1px;
+		height: 18px;
+		background: #DBDFE2;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	//border-right: 1px solid #DBDFE2;
+	&:first-child{
+		padding-left: 0;
+	}
+	&:last-child{
+		padding-right: 0;
+		&:after{
+			display: none;
+		}
+	}
+}
+.pets-top__label{
+	border-radius: 10px;
+	margin-right: 19px;
+	background: rgba(219,223,226,0.3);
+	padding: 14px 21px;
+}
+.pets-top__date{
+	color: #7E8597;
+	margin-right: 20px;
+	letter-spacing: 0.25px;
+}
+.pets-top__views{
+	color: #FFFFFF;
+	font-size: 10px;
+	background: #0D1D41;
+	border-radius: 10px;
+	padding: 3px 4px;
+	display: flex;
+	    margin: -4px 0 0 0;
+	&:before{
+		content: "";
+		display: inline-block;
+		width: 13px;
+		height: 9px;
+		margin-right: 2px;
+		background: url(../img/svg/eye.svg) no-repeat;
+	}
+}
+.t-indent{
+	padding-left: 40px;
+	margin-bottom: 35px;
+}
+.b-author{
+	display: flex;
+	flex-wrap:wrap;
+	margin-bottom: 14px;
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+.b-author__item{
+	font-size: 14px;
+	line-height: 20px;
+	color: #7E8597;
+	padding: 0 19px 0 0;
+	border-right: 1px solid #DBDFE2;
+	margin-right: 19px;
+	margin-bottom: 10px;
+	    letter-spacing: 0.25px;
+	&:first-child{
+		padding-left: 0;
+	}
+	&:last-child{
+		padding-right: 0;
+		border-right:0;
+		margin-right: 0;
+	}
+}
+
+.t-half{
+	display: flex;
+	flex-wrap:wrap;
+	margin: 0 32px 39px -23px;
+}
+.t-half__item{
+	width: 50%;
+	padding: 0 23px;
+}
+
+.m-txt-lg{
+	font-size: 23px;
+	line-height: 30px;
+}
+.wp-block-columns{
+	&.m-txt-lg{
+		margin-bottom: 45px;
+	}
+}
+
+
+.pets-top__add{
+	letter-spacing: 0.25px;
+}
