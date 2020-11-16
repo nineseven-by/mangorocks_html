@@ -423,7 +423,7 @@ textarea, input {
     padding: 0;
     list-style-type: none; }
     .workarea ul li {
-      margin: 0 0 20px 0;
+      margin: 0 0 10px 0;
       padding: 0 0 0 22px;
       position: relative; }
       .workarea ul li strong {
@@ -455,7 +455,7 @@ textarea, input {
       display: flex;
       margin: 0 -11px 0 0; }
   .workarea ol {
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
     padding: 0;
     counter-reset: list_1; }
     .workarea ol li {
@@ -472,7 +472,7 @@ textarea, input {
         content: counters(list_1, ".") ".";
         position: absolute;
         left: 5px;
-        top: 2px;
+        top: 1px;
         font-size: 16px; }
   .workarea figcaption {
     font-size: 16px;
@@ -515,6 +515,9 @@ textarea, input {
       mix-blend-mode: normal;
       opacity: 0.6;
       margin-bottom: 7px; }
+  .workarea td, .workarea th {
+    padding: 10px 15px;
+    vertical-align: top; }
 
 .layout {
   -webkit-box-flex: 1;
@@ -1501,7 +1504,14 @@ img.emoji {
   .wp-block-columns.snippet-link .wp-block-column:not(:first-child) {
     margin: 25px 0 35px 25px;
     font-size: 14px;
-    line-height: 20px; } }
+    line-height: 20px; }
+  .workarea figcaption {
+    font-size: 13px;
+    line-height: 17px; }
+  .m-pets .workarea p.t-indent {
+    margin-bottom: 17px;
+    font-size: 13px;
+    line-height: 17px; } }
 
 @media screen and (max-width: 600px) {
   .page-content {

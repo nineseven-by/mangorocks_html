@@ -12,12 +12,17 @@ $(document).ready(function() {
 	}
 
 
-	$('a').each(function() {
-	   	var l_host = new RegExp('/' + window.location.host + '/');
-	   	if (!l_host.test(this.href) && this.href.indexOf('http://daily.mango.rocks/') !== 0) {
-	      	$(this).attr("target","_blank");
-	   	}
-	});
+	if (window.location.href.indexOf("pets") > -1) {
+		return false
+    } else{
+	  	$('a').each(function() {
+		   	var l_host = new RegExp('/' + window.location.host + '/');
+		   	if (!l_host.test(this.href) && this.href.indexOf('http://daily.mango.rocks/') !== 0) {
+		      	$(this).attr("target","_blank");
+		   	}
+		});
+    }
+	
 
 	// if ($('.blog').length>0) {
 	// 	$('.blog__in').addClass('clickable').click( function() {

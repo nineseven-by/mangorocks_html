@@ -73,7 +73,7 @@
 		padding: 0;
 		list-style-type: none;
 		li{
-			margin: 0 0 20px 0;
+			margin: 0 0 10px 0;
 			padding: 0 0 0 22px;
 			position: relative;
 			strong{
@@ -113,7 +113,7 @@
 		}
 	}
 	ol{
-		margin: 0 0 20px 0; 
+		margin: 0 0 10px 0; 
 		padding: 0;
 		counter-reset: list_1;
 		li{
@@ -132,7 +132,7 @@
 			    content: counters(list_1, ".") ".";
 			    position: absolute;
 			    left: 5px;
-			    top: 2px;
+			    top: 1px;
 			    font-size: 16px;
 			}
 		}
@@ -181,5 +181,9 @@
 			opacity: 0.6;
 			margin-bottom: 7px;
 		}
+	}
+	td, th {
+	    padding: 10px 15px;
+	    vertical-align: top;
 	}
 }
