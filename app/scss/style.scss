@@ -498,6 +498,9 @@ a.blog__top{
 			}
 		}
 	}
+	figcaption{
+		margin-bottom: 0;
+	}
 }
 
 
@@ -545,6 +548,11 @@ img.emoji {
 			position: relative;
 			top: -7px;
 		}
+	}
+}
+.post__inner{
+	figure{
+		margin: 0;
 	}
 }
 

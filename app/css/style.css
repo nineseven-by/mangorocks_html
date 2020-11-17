@@ -913,6 +913,9 @@ a.blog__top:hover .blog__top__person {
         -ms-transform: scale(1.05);
             transform: scale(1.05); }
 
+.wp-block-image figcaption {
+  margin-bottom: 0; }
+
 .fb_iframe_widget {
   max-width: 100%; }
 
@@ -952,6 +955,9 @@ img.emoji {
       display: block;
       position: relative;
       top: -7px; }
+
+.post__inner figure {
+  margin: 0; }
 
 .post {
   overflow: hidden; }
