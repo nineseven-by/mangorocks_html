@@ -959,6 +959,9 @@ img.emoji {
 .post__inner figure {
   margin: 0; }
 
+.wp-block-image figcaption {
+  margin-bottom: 0; }
+
 .post {
   overflow: hidden; }
 

@@ -556,6 +556,11 @@ img.emoji {
 	}
 }
 
+.wp-block-image figcaption{
+	margin-bottom: 0;
+}
+
+
 @import "components/post";
 @import "components/main";
 
