@@ -960,7 +960,10 @@ img.emoji {
   margin: 0; }
 
 .wp-block-image figcaption {
-  margin-bottom: 0; }
+  margin-bottom: 0 !important; }
+
+.m-pets .workarea {
+  line-height: 1.4; }
 
 .post {
   overflow: hidden; }
