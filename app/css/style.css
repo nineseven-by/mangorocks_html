@@ -962,9 +962,6 @@ img.emoji {
 .wp-block-image figcaption {
   margin-bottom: 0 !important; }
 
-.m-pets .workarea {
-  line-height: 1.4; }
-
 .post {
   overflow: hidden; }
 
@@ -1057,7 +1054,7 @@ img.emoji {
 
 .m-pets .workarea {
   font-size: 21px;
-  line-height: 29px; }
+  line-height: 1.4; }
   .m-pets .workarea h1 {
     font-size: 38px;
     line-height: 48px;
