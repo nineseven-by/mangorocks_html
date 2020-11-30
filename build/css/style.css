@@ -1518,9 +1518,7 @@ img.emoji {
     font-size: 13px;
     line-height: 17px; }
   .m-pets .workarea p.t-indent {
-    margin-bottom: 17px;
-    font-size: 13px;
-    line-height: 17px; } }
+    margin-bottom: 20px; } }
 
 @media screen and (max-width: 600px) {
   .page-content {
@@ -1606,8 +1604,7 @@ img.emoji {
   .m-pets .post__inner {
     padding: 0 13px; }
   .m-pets .workarea {
-    font-size: 17px;
-    line-height: 25px; }
+    font-size: 17px; }
     .m-pets .workarea h1 {
       font-size: 26px;
       line-height: 33px; }
