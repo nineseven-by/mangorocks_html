@@ -1505,11 +1505,17 @@ img.emoji {
                 align-items: center; }
   .m-pets .wp-block-columns.snippet-link .wp-block-column:not(:first-child) {
     padding-left: 0;
-    padding-right: 0; }
+    padding-right: 0;
+    display: block;
+    overflow: hidden; }
   .m-pets .wp-block-columns.snippet-link .wp-block-column:not(:first-child) .wp-block-image {
     margin: 0 10px 0 0;
     max-width: 95px;
-    min-width: 95px; }
+    min-width: 95px;
+    float: left; }
+  .m-pets .wp-block-columns.snippet-link .wp-block-column:not(:first-child) .wp-block-image + p {
+    overflow: hidden;
+    margin-left: 100px; }
   .wp-block-columns.snippet-link .wp-block-column:not(:first-child) {
     margin: 25px 0 35px 25px;
     font-size: 14px;
