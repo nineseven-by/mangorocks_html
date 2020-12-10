@@ -1128,10 +1128,7 @@ img.emoji {
       margin: 0 0 10px 0;
       border-radius: 10px;
       overflow: hidden;
-      display: -webkit-inline-box;
-      display: -webkit-inline-flex;
-      display: -ms-inline-flexbox;
-      display: inline-flex;
+      display: block;
       width: 95px; }
       .m-pets .wp-block-columns.snippet-link .wp-block-column:not(:first-child) .wp-block-image img {
         display: block; }
