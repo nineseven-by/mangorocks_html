@@ -1301,7 +1301,8 @@ img.emoji {
 
 .pets__subscribe-form {
   background: #f2f2f2;
-  padding: 25px; }
+  padding: 25px;
+  margin-bottom: 30px; }
   .pets__subscribe-form [type="submit"] {
     display: inline-block;
     background: #FF644B;
