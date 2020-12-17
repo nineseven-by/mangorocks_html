@@ -1116,6 +1116,8 @@ img.emoji {
       -webkit-transform: translateX(-50%);
           -ms-transform: translateX(-50%);
               transform: translateX(-50%); }
+  .m-pets .workarea .pets__subscribe-form h3 {
+    margin-bottom: 10px; }
 
 .m-pets .wp-block-columns.snippet-link {
   margin-right: -380px; }
@@ -1297,6 +1299,51 @@ img.emoji {
 .pets-top__add {
   letter-spacing: 0.25px; }
 
+.pets__subscribe-form {
+  background: #f2f2f2;
+  padding: 25px; }
+  .pets__subscribe-form [type="submit"] {
+    display: inline-block;
+    background: #FF644B;
+    border: 0;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 9px 10px; }
+    .pets__subscribe-form [type="submit"]:hover {
+      -webkit-box-shadow: inset 0 0 0 99999px rgba(0, 0, 0, 0.05);
+              box-shadow: inset 0 0 0 99999px rgba(0, 0, 0, 0.05); }
+  .pets__subscribe-form input[type="text"],
+  .pets__subscribe-form input[type="email"],
+  .pets__subscribe-form input[type="password"] {
+    border: 0;
+    padding: 9px 10px;
+    display: block;
+    min-width: 290px; }
+
+.pets__subscribe-form__wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-right: -20px; }
+
+.pets__subscribe-form__item {
+  margin-right: 20px; }
+  .pets__subscribe-form__item label {
+    font-size: 18px; }
+
+.pets__subscribe-form__check {
+  line-height: 1; }
+
+.pets__subscribe-form__top {
+  margin-bottom: 10px;
+  min-height: 25px; }
+
 .page-footer {
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
@@ -1376,6 +1423,23 @@ img.emoji {
 @media screen and (max-width: 1200px) {
   .container-fluid {
     padding: 0 15px; } }
+
+@media screen and (max-width: 1160px) {
+  .m-pets .pets__subscribe-form__wrap {
+    margin-right: 0;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  .m-pets .pets__subscribe-form input[type="text"],
+  .m-pets .pets__subscribe-form input[type="email"],
+  .m-pets .pets__subscribe-form input[type="password"] {
+    width: 100%; }
+  .m-pets .pets__subscribe-form__item {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 100%; }
+    .m-pets .pets__subscribe-form__item:last-child {
+      margin-bottom: 0; } }
 
 @media screen and (max-width: 992px) {
   .page-header__wrap {

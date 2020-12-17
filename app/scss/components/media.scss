@@ -15,6 +15,29 @@
 	}
 }
 
+@media screen and (max-width: 1160px){
+	.m-pets{
+		.pets__subscribe-form__wrap{
+			margin-right: 0;
+			flex-wrap:wrap;
+		}
+		.pets__subscribe-form input[type="text"],
+		.pets__subscribe-form input[type="email"],
+		.pets__subscribe-form input[type="password"]{
+			width: 100%;
+		}
+		.pets__subscribe-form__item {
+		    margin-right: 0;
+		    margin-bottom: 20px;
+		    width: 100%;
+		    &:last-child{
+		    	margin-bottom: 0;
+		    }
+		}
+	}
+}
+
+
 @media screen and (max-width: 992px){
 	.page-header__wrap {
 	    padding-left: 0;
