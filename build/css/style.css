@@ -456,24 +456,15 @@ textarea, input {
       margin: 0 -11px 0 0; }
   .workarea ol {
     margin: 0 0 10px 0;
-    padding: 0;
-    counter-reset: list_1; }
+    padding: 0; }
     .workarea ol li {
-      margin: 0 0 20px 0;
-      padding: 0 0 0 22px;
-      position: relative;
-      list-style-type: none; }
+      margin: 0 0 20px 20px;
+      padding: 0 0 0 5px;
+      position: relative; }
       .workarea ol li strong {
         display: inline; }
       .workarea ol li:last-child {
         margin-bottom: 0; }
-      .workarea ol li:before {
-        counter-increment: list_1;
-        content: counters(list_1, ".") ".";
-        position: absolute;
-        left: 5px;
-        top: 1px;
-        font-size: 16px; }
   .workarea figcaption {
     font-size: 16px;
     line-height: 20px;

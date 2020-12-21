@@ -115,25 +115,17 @@
 	ol{
 		margin: 0 0 10px 0; 
 		padding: 0;
-		counter-reset: list_1;
+		//counter-reset: list_1;
 		li{
-			margin: 0 0 20px 0;
-			padding: 0 0 0 22px;
+			margin: 0 0 20px 20px;
+			padding: 0 0 0 5px;
 			position: relative;
-			list-style-type: none;
+			//list-style-type: none;
 			strong{
 				display: inline;
 			}
 			&:last-child{
 				margin-bottom: 0;
-			}
-			&:before{
-				counter-increment: list_1;
-			    content: counters(list_1, ".") ".";
-			    position: absolute;
-			    left: 5px;
-			    top: 1px;
-			    font-size: 16px;
 			}
 		}
 	}
