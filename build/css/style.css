@@ -246,9 +246,10 @@ a {
   transition: color 0.3s linear;
   text-decoration: none; }
   a:not([class]) {
-    color: #FF5746; }
+    text-decoration: underline;
+    color: #445179; }
     a:not([class]):hover {
-      text-decoration: underline; }
+      color: #FF5746; }
 
 body {
   margin: 0;
