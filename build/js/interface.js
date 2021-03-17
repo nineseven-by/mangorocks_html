@@ -4,16 +4,17 @@ $(document).ready(function() {
 
 	if (window.location.href.indexOf("pets") > -1) {
 		return false
-    } else{
-		if ($('.post__list').length>0) {
-			var base64URL = "data:image/";
-			setTimeout(function(){
-			  	$('.post__list').find( "img" ).each(function( index ) {
-			  		$( this ).attr('src').indexOf(base64URL) == -1 ? $(this).wrap("<a href="+ $( this ).attr('src') +" target='_blank' class='figure__link'></a>") : $(this).wrap("<a href="+ $( this ).data('src') +" target='_blank' class='figure__link'></a>") 
-				});
-			}, 500);
-		}
-    }
+    } 
+	// else{
+	// 	if ($('.post__list').length>0) {
+	// 		var base64URL = "data:image/";
+	// 		setTimeout(function(){
+	// 		  	$('.post__list').find( "img" ).each(function( index ) {
+	// 		  		$( this ).attr('src').indexOf(base64URL) == -1 ? $(this).wrap("<a href="+ $( this ).attr('src') +" target='_blank' class='figure__link'></a>") : $(this).wrap("<a href="+ $( this ).data('src') +" target='_blank' class='figure__link'></a>") 
+	// 			});
+	// 		}, 500);
+	// 	}
+    // }
 
 
 	if (window.location.href.indexOf("pets") > -1) {
