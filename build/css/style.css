@@ -1176,7 +1176,6 @@ img.emoji {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-  margin-bottom: 19px;
   font-size: 14px;
   line-height: 1; }
 
@@ -1190,7 +1189,8 @@ img.emoji {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 19px;
-  position: relative; }
+  position: relative;
+  margin-bottom: 20px; }
   .pets-top__part:after {
     content: "";
     display: inline-block;

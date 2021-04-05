@@ -141,7 +141,6 @@
 .pets-top__info{
 	display: flex;
 	flex-wrap:wrap;
-	margin-bottom: 19px;
 	font-size: 14px;
 	line-height: 1;
 }
@@ -150,6 +149,7 @@
 	align-items:center;
 	padding: 0 19px;
 	position: relative;
+	margin-bottom: 20px;
 	&:after{
 		content: "";
 		display: inline-block;
