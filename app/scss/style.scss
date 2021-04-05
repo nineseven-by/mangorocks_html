@@ -327,6 +327,10 @@ a.blog__top{
 	    transition: transform 0.3s ease;
 	    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 	}
+	lottie-player{
+		width: 100%!important;
+		height: 100%!important;
+	}
 }
 
 

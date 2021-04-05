@@ -742,6 +742,9 @@ a.blog__top:hover .blog__top__person {
     transition: -webkit-transform 0.3s ease;
     transition: transform 0.3s ease;
     transition: transform 0.3s ease, -webkit-transform 0.3s ease; }
+  .blog__img lottie-player {
+    width: 100% !important;
+    height: 100% !important; }
 
 .paging__top {
   margin-bottom: 30px;
