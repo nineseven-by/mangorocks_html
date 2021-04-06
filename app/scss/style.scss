@@ -564,6 +564,14 @@ img.emoji {
 	margin-bottom: 0!important;
 }
 
+.wp-block-image.m-widget{
+	height: 400px;
+	lottie-player{
+		width: 100%!important;
+		height: 100%!important;
+	}
+}
+
 
 @import "components/post";
 @import "components/main";

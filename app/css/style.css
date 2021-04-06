@@ -957,6 +957,12 @@ img.emoji {
 .wp-block-image figcaption {
   margin-bottom: 0 !important; }
 
+.wp-block-image.m-widget {
+  height: 400px; }
+  .wp-block-image.m-widget lottie-player {
+    width: 100% !important;
+    height: 100% !important; }
+
 .post {
   overflow: hidden; }
 
