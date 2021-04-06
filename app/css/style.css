@@ -1209,6 +1209,12 @@ img.emoji {
     padding-right: 0; }
     .pets-top__part:last-child:after {
       display: none; }
+  .pets-top__part.no-tags {
+    padding-right: 0; }
+    .pets-top__part.no-tags .pets-top__label {
+      margin-right: 0; }
+    .pets-top__part.no-tags:after {
+      display: none; }
 
 .pets-top__label {
   border-radius: 10px;

@@ -171,6 +171,15 @@
 			display: none;
 		}
 	}
+	&.no-tags{
+		padding-right: 0;
+		.pets-top__label{
+			margin-right: 0;
+		}
+		&:after{
+			display: none;
+		}
+	}
 }
 .pets-top__label{
 	border-radius: 10px;
