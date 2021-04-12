@@ -1168,7 +1168,12 @@ img.emoji {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 29px; }
+  margin-bottom: 29px;
+  padding: 0 30px; }
+  .pets-top .pets-top__img {
+    margin-bottom: 30px; }
+  .pets-top h1 + hr {
+    margin-top: 8px; }
 
 .pets-top__img img {
   display: block;

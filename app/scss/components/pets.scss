@@ -130,6 +130,15 @@
 	display: flex;
 	flex-direction:column;
 	margin-bottom: 29px;
+	padding: 0 30px;
+	.pets-top__img{
+		margin-bottom: 30px;
+	}
+	h1{
+		&+hr{
+			margin-top:8px;
+		}
+	}
 }
 
 .pets-top__img{
