@@ -1705,12 +1705,6 @@ img.emoji {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap; }
-  .pets-top__part {
-    padding: 0;
-    width: 100%;
-    margin-bottom: 15px; }
-    .pets-top__part:after {
-      display: none; }
   .m-pets .workarea blockquote {
     font-size: 22px;
     line-height: 28px; }
@@ -1732,3 +1726,11 @@ img.emoji {
     width: 100%; }
     .page-footer__link:last-child {
       margin-bottom: 0; } }
+
+@media screen and (max-width: 400px) {
+  .pets-top__part {
+    padding: 0;
+    width: 100%;
+    margin-bottom: 15px; }
+    .pets-top__part:after {
+      display: none; } }
