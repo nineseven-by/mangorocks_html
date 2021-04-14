@@ -1701,7 +1701,7 @@ img.emoji {
   .pets-top__img {
     margin-bottom: 16px; }
   .pets-top__info {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap; }
@@ -1729,8 +1729,9 @@ img.emoji {
 
 @media screen and (max-width: 400px) {
   .pets-top__part {
-    padding: 0;
-    width: 100%;
-    margin-bottom: 15px; }
-    .pets-top__part:after {
-      display: none; } }
+    padding: 0 8px; }
+  .pets-top__date {
+    margin-right: 8px; }
+  .pets-top__label {
+    margin-right: 8px;
+    padding: 10px 15px; } }
