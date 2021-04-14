@@ -310,7 +310,7 @@
 	    top: -40px;
 	}
 	.pets-top {
-	    flex-direction: column-reverse;
+	    padding: 0 13px;
 	}
 
 	.m-pets {
@@ -345,16 +345,13 @@
 		margin-bottom: 16px;
 	}
 	.pets-top__info{
-		margin-bottom: 0;
+		margin-bottom: 20px;
 		flex-wrap:wrap;
 	}
 	.pets-top__part{
 		padding: 0;
 		width: 100%;
 		margin-bottom: 15px;
-		&:last-child{
-			margin-bottom: 0;
-		}
 		&:after{
 			display: none;
 		}

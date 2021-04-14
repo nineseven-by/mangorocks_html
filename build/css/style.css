@@ -1678,11 +1678,7 @@ img.emoji {
             transform: translateX(-50%);
     top: -40px; }
   .pets-top {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-    -webkit-flex-direction: column-reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse; }
+    padding: 0 13px; }
   .m-pets .post__list {
     padding: 13px 0; }
   .m-pets .post__inner {
@@ -1705,7 +1701,7 @@ img.emoji {
   .pets-top__img {
     margin-bottom: 16px; }
   .pets-top__info {
-    margin-bottom: 0;
+    margin-bottom: 20px;
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap; }
@@ -1713,8 +1709,6 @@ img.emoji {
     padding: 0;
     width: 100%;
     margin-bottom: 15px; }
-    .pets-top__part:last-child {
-      margin-bottom: 0; }
     .pets-top__part:after {
       display: none; }
   .m-pets .workarea blockquote {
