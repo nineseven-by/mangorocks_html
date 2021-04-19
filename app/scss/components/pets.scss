@@ -159,6 +159,7 @@
 	padding: 0 19px;
 	position: relative;
 	margin-bottom: 20px;
+	overflow: hidden;
 	&:after{
 		content: "";
 		display: inline-block;
@@ -176,6 +177,7 @@
 	}
 	&:last-child{
 		padding-right: 0;
+		overflow: visible;
 		&:after{
 			display: none;
 		}
@@ -195,6 +197,10 @@
 	margin-right: 19px;
 	background: rgba(219,223,226,0.3);
 	padding: 14px 21px;
+	white-space: nowrap;
+	span{
+		
+	}
 }
 .pets-top__date{
 	color: #7E8597;
@@ -267,6 +273,9 @@
 
 .pets-top__add{
 	letter-spacing: 0.25px;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .pets__subscribe-form{

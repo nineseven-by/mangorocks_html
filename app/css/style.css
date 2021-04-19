@@ -1201,7 +1201,8 @@ img.emoji {
           align-items: center;
   padding: 0 19px;
   position: relative;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  overflow: hidden; }
   .pets-top__part:after {
     content: "";
     display: inline-block;
@@ -1217,7 +1218,8 @@ img.emoji {
   .pets-top__part:first-child {
     padding-left: 0; }
   .pets-top__part:last-child {
-    padding-right: 0; }
+    padding-right: 0;
+    overflow: visible; }
     .pets-top__part:last-child:after {
       display: none; }
   .pets-top__part.no-tags {
@@ -1231,7 +1233,8 @@ img.emoji {
   border-radius: 10px;
   margin-right: 19px;
   background: rgba(219, 223, 226, 0.3);
-  padding: 14px 21px; }
+  padding: 14px 21px;
+  white-space: nowrap; }
 
 .pets-top__date {
   color: #7E8597;
@@ -1308,7 +1311,10 @@ img.emoji {
   line-height: 30px; }
 
 .pets-top__add {
-  letter-spacing: 0.25px; }
+  letter-spacing: 0.25px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; }
 
 .pets__subscribe-form {
   background: #f2f2f2;
