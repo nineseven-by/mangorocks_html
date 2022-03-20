@@ -1,27 +1,68 @@
 .page-footer{
 	flex-shrink: 0;
-	background: #2F3A5B;
-	box-shadow: 0px 4px 8px rgba(84, 110, 122, 0.24);
+	background: linear-gradient(101.94deg, #FF8BEC -174.23%, rgba(172, 107, 255, 0) 353.35%), #7FB2FF;
 	color: #fff;
-	padding: 27px 0;
+	padding: 27px 0 32px;
+    line-height: 1.3;
+    .container-fluid{
+        max-width: 1350px;
+    }
 }
 .page-footer__top {
-    margin-bottom: 20px;
-    font-family: 'avenirnextcyr-demi';
-    font-size: 16px;
+    max-width: 464px;
+    font-family: 'avenirnextcyr-regular';
+    font-size: 25px;
 }
 .page-footer__wrap{
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	// align-items: center;
 }
+
+.page-footer-socials{
+    max-width: 260px;
+    padding: 4px 30px 0;
+    &__top{
+        color: #fff;
+        letter-spacing: 0.25px;
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+    }
+    &__link{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #fff;
+        margin-right: 12px;
+        transition: box-shadow .25s ease;
+        &.m-fb{
+            background: url(../img/svg/fb.svg) center no-repeat;
+        }
+        &.m-vk{
+            background: url(../img/svg/vk.svg) center no-repeat;
+        }
+        &.m-insta{
+            background: url(../img/svg/insta.svg) center no-repeat;
+        }
+        &:last-child{
+            margin-right: 0;
+        }
+        &:hover{
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        }
+    }
+}
+
 .page-footer__link{
 	display: inline-block;
     color: #fff;
-    margin-right: 36px;
-    font-family: 'avenirnextcyr-regular';
     letter-spacing: 0.25px;
-    font-size: 16px;
+    font-size: 20px;
+    margin-bottom: 23px;
 	&:last-child{
 		margin-right: 0;
 	}
@@ -31,12 +72,12 @@
 }
 
 .page-footer__copy{
-	display: inline-flex;
+	display: flex;
     align-items: center;
     font-family: 'avenirnextcyr-regular';
-    font-size: 16px;
-    color: #C0C4CD;
-    letter-spacing: 0.25px;
+    font-size: 20px;
+    color: #D7CBFF;
+    // letter-spacing: 0.25px;
     span{
     	color: #fff;
     	    display: inline-block;
@@ -47,9 +88,10 @@
         display: inline-block;
         margin-left: 5px;
         color: #fff;
+        text-decoration: none; 
         &:hover{
            color: #FF644B;
-           text-decoration: none; 
+           
         }
     }
 }
@@ -57,9 +99,13 @@
 .page-footer__age{
     font-size: 13px;
     line-height: 18px;
-    color: #C0C4CD;
-    border: 1px solid #C0C4CD;
+    color: #fff;
+    border: 1px solid #D7CBFF;
     border-radius: 5px;
     padding: 1px 4px 2px;
-    margin-left: 10px;
+    margin-left: 25px;
+}
+
+.page-footer__links{
+    padding-top: 4px;
 }

@@ -41,8 +41,7 @@ a{
 	text-decoration: none;
 	&:not([class]){
 		
-		text-decoration: underline;
-		color: #445179;
+		color: #FF8F54;
 		&:hover{
 			color: #FF5746;
 		}
@@ -58,9 +57,12 @@ body {
 	font-size: $default-size-font;
 	font-family: $default-font;
 	color: $base-color;
-	font-weight: 300;
 	display: flex;
   	flex-direction: column;
+	overflow-x: hidden;
+	&.m-fixed{
+		 overflow: hidden;
+	}
 }
 
 textarea,input {
