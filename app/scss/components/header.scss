@@ -262,6 +262,7 @@
 	display: block;
 	margin-bottom: 17px;
 	color: #0B1D42;
+	transition: color .3s ease;
 	&:last-child{
 		margin-bottom: 0;
 	}
@@ -271,6 +272,9 @@
 	&.m-complex{
 		display: flex;
 		align-items: center;
+	}
+	&:hover{
+		color: #FF8E54;
 	}
 }
 .menu-mobile__icon{
@@ -283,10 +287,11 @@
 }
 
 .m__top{
-	margin-bottom: 3px;
+	//margin-bottom: 3px;
 }
 .m__add{
 	color: #ccc;
+	font-size: 16px;
 }
 
 .menu-socials{
@@ -299,15 +304,24 @@
         border-radius: 50%;
         background: #fff;
         margin-right: 12px;
-        transition: box-shadow .25s ease;
+        transition: all .25s ease;
         &.m-fb{
             background: url(../img/svg/m-fb.svg) center no-repeat;
+			&:hover{
+				background: url(../img/svg/m-fb-h.svg) center no-repeat;
+			}
         }
         &.m-vk{
             background: url(../img/svg/m-vk.svg) center no-repeat;
+			&:hover{
+				background: url(../img/svg/m-vk-h.svg) center no-repeat;
+			}
         }
         &.m-insta{
             background: url(../img/svg/m-insta.svg) center no-repeat;
+			&:hover{
+				background: url(../img/svg/m-insta-h.svg) center no-repeat;
+			}
         }
         &:last-child{
             margin-right: 0;

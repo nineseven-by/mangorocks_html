@@ -9,572 +9,614 @@
 		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" /> -->
 		<link href="css/libs.min.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
 	</head>
 	<body>
 		<!--LAYOUT-->
-		<div class="layout">
+		<div class="layout m-index">
 			<header class="page-header">
-				<div class="container-fluid">
-					<div class="page-header__wrap">
-						<span class="logo">
-							<img src="img/svg/logo.svg" alt="">
-							<span>daily</span>
+                <div class="container-fluid">
+                    <div class="page-header__wrap">
+                        <span class="logo">
+                            <img src="img/svg/logo.svg" alt="">
+                            <span>daily</span>
 						</span>
-						<div class="switch">
-							<div class="switch__item">
-								<input name="radio-head" type="radio" id="switch-most" checked>
-								<label for="switch-most">Самое интересное</label>
-							</div>
-							<div class="switch__item">
-								<input name="radio-head" type="radio" id="switch-all">
-								<label for="switch-all">Все статьи</label>
-							</div>
-						</div>
-					</div>
-				</div>
+                        <div class="page-header-search">
+                            <form action="#" method="post">
+                                <input type="text" placeholder="Поиск по блогу">
+                                <input type="submit" value="Найти" class="page-header__submit">
+                            </form>
+                        </div>
+                        <div class="mobile-buttons">
+                            <a href="#" class="search-mobile-toggle"></a>
+                            <a href="#" class="menu-btn">
+                                <span class="burger-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="search-mobile">
+                        <div class="search-mobile__wrap">
+                            <a href="#" class="search-mobile__close"></a>
+                            <form action="#" method="post">
+                                <input type="text" placeholder="Поиск по блогу">
+                                <input type="submit">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="menu-mobile">
+                        <div class="menu-mobile__inner">
+                            <div class="menu-mobile__wrap">
+                                <div class="menu-mobile__item">
+                                    <div class="menu-mobile__top">Разделы</div>
+                                    <div class="menu-mobile__list">
+                                        <a href="#" class="menu-mobile__link">Иншуринг и страхование</a>
+                                        <a href="#" class="menu-mobile__link">Кошки</a>
+                                        <a href="#" class="menu-mobile__link">Лады с государством</a>
+                                        <a href="#" class="menu-mobile__link">Собаки</a>
+                                        <a href="#" class="menu-mobile__link">Тепло в семье</a>
+                                        <a href="#" class="menu-mobile__link">Уютно дома</a>
+                                    </div>
+                                </div>
+                                <div class="menu-mobile__item">
+                                    <div class="menu-mobile__top">Выбрать страховку</div>
+                                    <a href="#" class="menu-mobile__link m-complex">
+                                        <span class="menu-mobile__icon">
+                                            <img src="img/svg/m-icon1.svg" alt="">
+                                        </span>
+                                        <div class="menu-mobile__info">
+                                            <div class="m__top">
+                                                Квартиры
+                                            </div>
+                                            <div class="m__add">
+                                                от 120 ₽/мес
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="menu-mobile__link m-complex">
+                                        <span class="menu-mobile__icon">
+                                            <img src="img/svg/m-icon2.svg" alt="">
+                                        </span>
+                                        <div class="menu-mobile__info">
+                                            <div class="m__top">
+                                                Питомцы
+                                            </div>
+                                            <div class="m__add">
+                                                от 250 ₽/мес
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="menu-mobile__link m-complex">
+                                        <span class="menu-mobile__icon">
+                                            <img src="img/svg/m-icon3.svg" alt="">
+                                        </span>
+                                        <div class="menu-mobile__info">
+                                            <div class="m__top">
+                                                Дети
+                                            </div>
+                                            <div class="m__add">
+                                                от 200 ₽/мес
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#" class="menu-mobile__link m-xs">Перейти на сайт Манго страхование</a>
+                                </div>
+                            </div>
+                            <div class="menu-socials">
+                                <a href="#" class="menu-socials__link m-fb"></a>
+                                <a href="#" class="menu-socials__link m-vk"></a>
+                                <a href="#" class="menu-socials__link m-insta"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 			</header>
 			<main class="page-content workarea">
 				<div class="container-fluid">
-				<!-- CONTENT-PART -->
-					<article class="main-top">
-						<div class="blog__in">
-							<div class="blog__top">
-								<div class="blog__icon">
-									<img src="img/content/img1.jpg" alt="">
+					<!-- CONTENT-PART -->
+					<div class="index-wrapper">
+						<div class="index-chapter">
+							<div class="menu-mobile__item">
+								<div class="menu-mobile__top m-mobile-hidden">Разделы</div>
+								<div class="menu-mobile__list">
+									<a href="#" class="menu-mobile__link">Иншуринг и страхование</a>
+									<a href="#" class="menu-mobile__link">Кошки</a>
+									<a href="#" class="menu-mobile__link">Лады с государством</a>
+									<a href="#" class="menu-mobile__link">Собаки</a>
+									<a href="#" class="menu-mobile__link">Тепло в семье</a>
+									<a href="#" class="menu-mobile__link">Уютно дома</a>
 								</div>
-								<span>
-									Андрей Поповцев, 5 сен 2018, 11:20
-								</span>
 							</div>
-							<div class="main-top__title">
-								<a href="#" class="blog__title">
-									<div class="blog__title-txt">Капремонт по правилам: как заставить подрядчика<br> сделать работу качественно</div>
+							<div class="menu-mobile__item m-mobile-hidden">
+								<div class="menu-mobile__top">Выбрать страховку</div>
+								<a href="#" class="menu-mobile__link m-complex">
+									<span class="menu-mobile__icon">
+										<img src="img/svg/m-icon1.svg" alt="">
+									</span>
+									<div class="menu-mobile__info">
+										<div class="m__top">
+											Квартиры
+										</div>
+										<div class="m__add">
+											от 120 ₽/мес
+										</div>
+									</div>
 								</a>
+								<a href="#" class="menu-mobile__link m-complex">
+									<span class="menu-mobile__icon">
+										<img src="img/svg/m-icon2.svg" alt="">
+									</span>
+									<div class="menu-mobile__info">
+										<div class="m__top">
+											Питомцы
+										</div>
+										<div class="m__add">
+											от 250 ₽/мес
+										</div>
+									</div>
+								</a>
+								<a href="#" class="menu-mobile__link m-complex">
+									<span class="menu-mobile__icon">
+										<img src="img/svg/m-icon3.svg" alt="">
+									</span>
+									<div class="menu-mobile__info">
+										<div class="m__top">
+											Дети
+										</div>
+										<div class="m__add">
+											от 200 ₽/мес
+										</div>
+									</div>
+								</a>
+
+								<a href="#" class="menu-mobile__link m-xs">Перейти на сайт Манго страхование</a>
+							</div>
+							<div class="menu-socials m-mobile-hidden">
+                                <a href="#" class="menu-socials__link m-fb"></a>
+                                <a href="#" class="menu-socials__link m-vk"></a>
+                                <a href="#" class="menu-socials__link m-insta"></a>
+                            </div>
+						</div>
+						<div class="index-view">
+							<div class="blog__wrap">
+								<article class="blog__item m-lg">
+									<div class="blog__in">
+										<a href="#" class="blog__img">
+											<img src="img/content/img2.jpg" alt="">
+										</a>
+										<div class="blog__info">
+											<div class="blog__top">
+												Домашние животные
+											</div>
+											<a href="#" class="blog__title">
+												Часы тишины: в какое время можно делать ремонт в квартире? 
+											</a>
+										</div>
+									</div>	
+								</article>
+								<div class="blog__item m-lg m-complex">
+									<div class="m-complex__wrap">	
+										<article class="blog__in">
+											<div class="blog__info">
+												<div class="blog__top">
+													Лады с государством
+												</div>
+												<a href="#" class="blog__title">
+													Инструкция: что делать, если начался пожар в квартире 
+												</a>
+											</div>
+										</article>	
+										<article class="blog__in">
+											<div class="blog__info">
+												<div class="blog__top">
+													Собаки
+												</div>
+												<a href="#" class="blog__title">
+													Знаете ли вы свои права в больницах и поликлиниках?
+												</a>
+											</div>
+										</article>
+										<article class="blog__in">
+											<div class="blog__info">
+												<div class="blog__top">
+													Тепло в семье
+												</div>
+												<a href="#" class="blog__title">
+													Всё самое важное о прививках для котиков: последствия, сроки, бренды, мифы 
+												</a>
+											</div>
+										</article>		
+									</div>
+								</div>
+							</div>
+							<div class="index-popular">
+								<div class="last-article__top">Популярное</div>
+								<div class="last-article__wrap">
+									<a href="#" class="last-article">
+										<div class="last-article__in">
+											<div class="blog__top">
+												<span>Лады с государством</span>
+												<div class="post-info__view">413</div>
+											</div>
+											<div class="last-article__title">
+												4 способа сэкономить на туристической страховке  
+											</div>
+										</div>
+									</a>
+									<a href="#" class="last-article">
+										<div class="last-article__in">
+											<div class="blog__top">
+												<span>Домашние животные</span>
+												<div class="post-info__view">413</div>
+											</div>
+											<div class="last-article__title">
+												Стрижка когтей у собак и котов  
+											</div>
+										</div>
+									</a>
+									<a href="#" class="last-article">
+										<div class="last-article__in">
+											<div class="blog__top">
+												<span>Жильем</span>
+												<div class="post-info__view">1231</div>
+											</div>
+											<div class="last-article__title">
+												Квартиранты затопили соседей. Что делать?   
+											</div>
+										</div>
+									</a>
+									<a href="#" class="last-article">
+										<div class="last-article__in">
+											<div class="blog__top">
+												<span>Иншуринг и страхование</span>
+												<div class="post-info__view">13 231</div>
+											</div>
+											<div class="last-article__title">
+												Должник до конца жизни: истории банкротства пенсионеров из-за пожара  
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+
+							<div class="materials-slider">
+								<div class="materials-slider__item">
+									<a href="#" class="materials-slider__link">
+										<div class="materials-slider__icon">
+											<img src="img/content/mat1.png" alt="">
+										</div>
+										<div class="materials-slider__txt">
+											Подписка для питомца — что это?
+										</div>
+									</a>
+								</div>
+								<div class="materials-slider__item">
+									<a href="#" class="materials-slider__link">
+										<div class="materials-slider__icon">
+											<img src="img/content/mat2.png" alt="">
+										</div>
+										<div class="materials-slider__txt">
+											Питомец здоров, зачем ему подписка?
+										</div>
+									</a>
+								</div>
+								<div class="materials-slider__item">
+									<a href="#" class="materials-slider__link">
+										<div class="materials-slider__icon">
+											<img src="img/content/mat3.png" alt="">
+										</div>
+										<div class="materials-slider__txt">
+											Онлайн-ветеринар всегда рядом
+										</div>
+									</a>
+								</div>
+								<div class="materials-slider__item">
+									<a href="#" class="materials-slider__link">
+										<div class="materials-slider__icon">
+											<img src="img/content/mat4.png" alt="">
+										</div>
+										<div class="materials-slider__txt">
+											Кто такие ВетЭксперт?
+										</div>
+									</a>
+								</div>
+								<div class="materials-slider__item">
+									<a href="#" class="materials-slider__link">
+										<div class="materials-slider__icon">
+											<img src="img/content/mat2.png" alt="">
+										</div>
+										<div class="materials-slider__txt">
+											Питомец здоров, зачем ему подписка?
+										</div>
+									</a>
+								</div>
+								<div class="materials-slider__item">
+									<a href="#" class="materials-slider__link">
+										<div class="materials-slider__icon">
+											<img src="img/content/mat3.png" alt="">
+										</div>
+										<div class="materials-slider__txt">
+											Онлайн-ветеринар всегда рядом
+										</div>
+									</a>
+								</div>
+								<div class="materials-slider__item">
+									<a href="#" class="materials-slider__link">
+										<div class="materials-slider__icon">
+											<img src="img/content/mat2.png" alt="">
+										</div>
+										<div class="materials-slider__txt">
+											Питомец здоров, зачем ему подписка?
+										</div>
+									</a>
+								</div>
+								<div class="materials-slider__item">
+									<a href="#" class="materials-slider__link">
+										<div class="materials-slider__icon">
+											<img src="img/content/mat3.png" alt="">
+										</div>
+										<div class="materials-slider__txt">
+											Онлайн-ветеринар всегда рядом
+										</div>
+									</a>
+								</div>
+							</div>
+
+							<div class="blog__wrap">
+								<article class="blog__item m-lg">
+									<div class="blog__in">
+										<a href="#" class="blog__img">
+											<img src="img/content/img2.jpg" alt="">
+										</a>
+										<div class="blog__info">
+											<div class="blog__top">
+												<span>Домашние животные</span>
+												<div class="post-info__time">2 мин.</div>
+											</div>
+											<a href="#" class="blog__title">
+												Часы тишины: в какое время можно делать ремонт в квартире? 
+											</a>
+										</div>
+									</div>	
+								</article>
+								<article class="blog__item m-lg">
+									<div class="blog__in">
+										<a href="#" class="blog__img">
+											<img src="img/content/img2.jpg" alt="">
+										</a>
+										<div class="blog__info">
+											<div class="blog__top">
+												<span>Опрос</span>
+												<div class="post-info__time">4 мин.</div>
+											</div>
+											<a href="#" class="blog__title">
+												Знаете ли вы свои права в больницах и поликлиниках? 
+											</a>
+										</div>
+									</div>	
+								</article>
+							</div>
+
+							<div class="memo">
+								<h2 class="m-colored">
+									Подпишитесь на рассылку
+								</h2>
+								<p>
+									Раз в месяц присылаем анонсы статей. Никакого спама и продаж.
+								</p>
+								<div class="subscription__form">
+									<form action="#" method="post">
+										<div class="subscription__wrap">
+											<input type="email" placeholder="Эл. почта">
+											<input type="submit" value="Получить">
+										</div>
+									</form>
+								</div>
+							</div>
+
+							<div class="interesting">
+								<h3>Самое интересное про домашних животных</h3>
+								<div class="interesting__slider">
+									<div class="interesting__item">
+										<a href="#" class="interesting__link">
+											<div class="interesting__img">
+												<img src="img/content/img2.jpg" alt="">
+											</div>
+											<div class="interesting__txt">
+												Часы тишины: в какое время можно делать ремонт в квартире? 
+											</div>
+										</a>
+									</div>
+									<div class="interesting__item">
+										<a href="#" class="interesting__link">
+											<div class="interesting__img">
+												<img src="img/content/img2.jpg" alt="">
+											</div>
+											<div class="interesting__txt">
+												Всё самое важное о прививках для котиков: последствия, сроки, бренды, мифы  
+											</div>
+										</a>
+									</div>
+									<div class="interesting__item">
+										<a href="#" class="interesting__link">
+											<div class="interesting__img">
+												<img src="img/content/img2.jpg" alt="">
+											</div>
+											<div class="interesting__txt">
+												Этика собаководов 
+											</div>
+										</a>
+									</div>
+									<div class="interesting__item">
+										<a href="#" class="interesting__link">
+											<div class="interesting__img">
+												<img src="img/content/img2.jpg" alt="">
+											</div>
+											<div class="interesting__txt">
+												Часы тишины: в какое время можно делать ремонт в квартире? 
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="blog__wrap">
+								<article class="blog__item m-lg">
+									<div class="blog__in">
+										<a href="#" class="blog__img">
+											<img src="img/content/img2.jpg" alt="">
+										</a>
+										<div class="blog__info">
+											<div class="blog__top">
+												<span>Домашние животные</span>
+												<div class="post-info__time">5 мин.</div>
+											</div>
+											<a href="#" class="blog__title">
+												Стрижка когтей у собак и котов  
+											</a>
+											<div class="blog__add">
+												<div class="b-add-inner">
+													Стричь когти питомцам необходимо, но многие хозяева боятся это делать и терпят подранную мебель и обои или возят питомца к ветеринару. Мы узнали у ветеринара и зоопсихолога, как самостоятельно подстричь питомцу когти. Оказывается, не так страшен чёрт, как его малюют.
+												</div> 
+											</div>
+										</div>
+									</div>	
+								</article>
+								<article class="blog__item m-lg">
+									<div class="blog__in">
+										<a href="#" class="blog__img">
+											<img src="img/content/img2.jpg" alt="">
+										</a>
+										<div class="blog__info">
+											<div class="blog__top">
+												<span>Тепло в семье</span>
+												<div class="post-info__time">5 мин.</div>
+											</div>
+											<a href="#" class="blog__title">
+												Знаете ли вы свои права в больницах и поликлиниках?  
+											</a>
+											<div class="blog__add">
+												<div class="b-add-inner">
+													Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, accusantium quae vero inventore rem porro sed enim dolor nisi alias ducimus, quo, molestiae cum optio. Quis unde suscipit id corrupti!
+												</div> 
+											</div>
+										</div>
+									</div>	
+								</article>
+								<article class="blog__item m-lg">
+									<div class="blog__in">
+										<a href="#" class="blog__img">
+											<img src="img/content/img2.jpg" alt="">
+										</a>
+										<div class="blog__info">
+											<div class="blog__top">
+												<span>Тепло в семье</span>
+												<div class="post-info__time">5 мин.</div>
+											</div>
+											<a href="#" class="blog__title">
+												Знаете ли вы свои права в больницах и поликлиниках?  
+											</a>
+											<div class="blog__add">
+												<div class="b-add-inner">
+													Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, accusantium quae vero inventore rem porro sed enim dolor nisi alias ducimus, quo, molestiae cum optio. Quis unde suscipit id corrupti!
+												</div> 
+											</div>
+										</div>
+									</div>	
+								</article>
+								<article class="blog__item m-lg">
+									<div class="blog__in">
+										<a href="#" class="blog__img">
+											<img src="img/content/img2.jpg" alt="">
+										</a>
+										<div class="blog__info">
+											<div class="blog__top">
+												<span>Домашние животные</span>
+												<div class="post-info__time">5 мин.</div>
+											</div>
+											<a href="#" class="blog__title">
+												Стрижка когтей у собак и котов  
+											</a>
+											<div class="blog__add">
+												<div class="b-add-inner">
+													Стричь когти питомцам необходимо, но многие хозяева боятся это делать и терпят подранную мебель и обои или возят питомца к ветеринару. Мы узнали у ветеринара и зоопсихолога, как самостоятельно подстричь питомцу когти. Оказывается, не так страшен чёрт, как его малюют.
+												</div> 
+											</div>
+										</div>
+									</div>	
+								</article>
+								<article class="blog__item m-fullwidth">
+									<div class="blog__in">
+										<a href="#" class="blog__img">
+											<img src="img/content/img2.jpg" alt="">
+										</a>
+										<div class="blog__info">
+											<div class="blog__top">
+												Тест
+											</div>
+											<a href="#" class="blog__title">
+												Знаете ли вы свои права в больницах и поликлиниках?
+											</a>
+											<a href="#" class="btn">Пройти тест</a>
+										</div>
+									</div>	
+								</article>
+							</div>
+
+							<div class="paging">
+								<div class="paging__top">
+									<a href="#" class="paging__toggle paging__prev"><span>Сюда</span></a>
+									<a href="#" class="paging__toggle paging__next"><span>Туда</span></a>
+
+								</div>
+								<div class="paging__list">
+									<a href="#" class="paging__item m-less"></a>
+									<span class="paging__item active">1</span>
+									<a href="#" class="paging__item">2</a>
+									<a href="#" class="paging__item">3</a>
+									<a href="#" class="paging__item">4</a>
+									<a href="#" class="paging__item">5</a>
+									<a href="#" class="paging__item">6</a>
+									<a href="#" class="paging__item m-more"></a>
+								</div>
 							</div>
 						</div>
-					</article>
-					<div class="blog">
-						<div class="blog__wrap" id="most_interesting">
-							<article class="blog__item m-lg">
-								<div class="blog__in">
-									<a href="#" class="blog__img">
-										<img src="img/content/img1.jpg" alt="">
-									</a>
-									<div class="blog__info">
-										<div class="blog__top">
-											<div class="blog__icon">
-												<img src="img/content/img1.jpg" alt="">
-											</div>
-											<span>
-												Андрей Поповцев, 5 сен 2018, 11:20
-											</span>
-										</div>
-										<a href="#" class="blog__title">
-											Награда за терпение. Сколько денег можно получить от государства за жизнь в браке 
-										</a>
-										<a href="#" class="blog__txt">
-											Какая выплата положена к юбилею совместной жизни и как ее получить. 
-										</a>
-									</div>
-									
-								</div>	
-							</article>
-
-							<article class="blog__item m-lg">
-								<div class="blog__in">
-									<a href="#" class="blog__img">
-										<img src="img/content/img2.jpg" alt="">
-									</a>
-									<div class="blog__info">
-										<div class="blog__top">
-											<div class="blog__icon">
-												<img src="img/content/img1.jpg" alt="">
-											</div>
-											<span>
-												Андрей Поповцев, 5 сен 2018, 11:20
-											</span>
-										</div>
-										<a href="#" class="blog__title">
-											20 способов, которыми вас обманывают страховые компании 
-										</a>
-										<a href="#" class="blog__txt">
-											Сразу о главном: купить моментальное исправление или удаление кредитной истории нельзя. Совсем. Те, кто это предлагает — мошенники. 
-										</a>
-									</div>
-								</div>	
-							</article>
-
-							<article class="main-top">
-								<div class="blog__in">
-									<div class="blog__top">
-										<div class="blog__icon">
-											<img src="img/content/img1.jpg" alt="">
-										</div>
-										<span>
-											Андрей Поповцев, 5 сен 2018, 11:20
-										</span>
-									</div>
-									<div class="main-top__title">
-										<a href="#" class="blog__title">
-											<h1>Test 1</h1>
-										</a>
-									</div>
-								</div>
-							</article>
-
-							<div class="blog__item m-md m-complex">
-								<div class="m-complex__wrap">	
-									<article class="blog__in">
-										<div class="blog__info">
-											<div class="blog__top">
-												<div class="blog__icon">
-													<img src="img/content/img1.jpg" alt="">
-												</div>
-												<span>
-													Андрей Поповцев, 5 сен 2018, 11:20
-												</span>
-											</div>
-											<a href="#" class="blog__title">
-												Награда за терпение. Сколько денег можно получить от государства
-											</a>
-										</div>
-									</article>	
-									<article class="blog__in">
-										<div class="blog__info">
-											<div class="blog__top">
-												<div class="blog__icon">
-													<img src="img/content/img1.jpg" alt="">
-												</div>
-												<span>
-													Андрей Поповцев, 5 сен 2018, 11:20
-												</span>
-											</div>
-											<a href="#" class="blog__title">
-												Как переводить деньги на любую карту и не платить комиссию 
-											</a>
-										</div>
-									</article>	
-								</div>
-							</div>
-							<article class="blog__item m-md">
-								<div class="blog__in">
-									<a href="#" class="blog__img">
-										<img src="img/content/img2.jpg" alt="">
-									</a>
-									<div class="blog__info">
-										<div class="blog__top">
-											<div class="blog__icon">
-												<img src="img/content/img1.jpg" alt="">
-											</div>
-											<span>
-												Андрей Поповцев, 5 сен 2018, 11:20
-											</span>
-										</div>
-										<a href="#" class="blog__title">
-											Прохождение Assassin’s Creed Odyssey
-										</a>
-										<a href="#" class="blog__txt">
-											Разработчики хотят заставить пользователей хотя бы раз пройти игру в режиме глухого человека.
-										</a>
-									</div>
-								</div>	
-							</article>
-							<article class="blog__item m-md">
-								<div class="blog__in">
-									<a href="#" class="blog__img">
-										<img src="img/content/img1.jpg" alt="">
-									</a>
-									<div class="blog__info">
-										<div class="blog__top">
-											<div class="blog__icon">
-												<img src="img/content/img1.jpg" alt="">
-											</div>
-											<span>
-												Андрей Поповцев, 5 сен 2018, 11:20
-											</span>
-										</div>
-										<a href="#" class="blog__title">
-											Как в Star Wars: Knights of the Old Republic получить
-										</a>
-										<a href="#" class="blog__txt">
-											Разработчики хотят заставить пользователей хотя бы раз пройти игру в режиме глухого человека.
-										</a>
-									</div>
-								</div>	
-							</article>
-							
-
-							<article class="blog__item m-lg m-combined">
-								<article class="blog__in">
-									<a href="#" class="blog__img">
-										<img src="https://via.placeholder.com/450" alt="">
-									</a>
-									<div class="blog__info">
-										<div class="blog__top">
-											<div class="blog__icon">
-												<img src="img/content/img1.jpg" alt="">
-											</div>
-											<span>
-												Андрей Поповцев, 5 сен 2018, 11:20
-											</span>
-										</div>
-										<a href="#" class="blog__title">
-											Награда за терпение. Сколько денег можно получить от государства за жизнь в браке 
-										</a>
-									</div>
-								</article>	
-							</article>
-							<article class="blog__item m-lg m-combined">
-								<div class="blog__in">
-									<a href="#" class="blog__img">
-										<img src="img/content/img2.jpg" alt="">
-									</a>
-									<div class="blog__info">
-										<div class="blog__top">
-											<div class="blog__icon">
-												<img src="img/content/img1.jpg" alt="">
-											</div>
-											<span>
-												Андрей Поповцев, 5 сен 2018, 11:20
-											</span>
-										</div>
-										<a href="#" class="blog__title">
-											20 способов, которыми вас обманывают страховые компании 
-										</a>
-									</div>
-								</div>	
-							</article>
-
-							<article class="main-top">
-								<div class="blog__in">
-									<div class="blog__top">
-										<div class="blog__icon">
-											<img src="img/content/img1.jpg" alt="">
-										</div>
-										<span>
-											Андрей Поповцев, 5 сен 2018, 11:20
-										</span>
-									</div>
-									<div class="main-top__title">
-										<a href="#" class="blog__title">
-											<h1>Test 2</h1>
-										</a>
-									</div>
-								</div>
-							</article>
-
-							<article class="blog__item m-lg">
-								<div class="blog__in">
-									<a href="#" class="blog__img">
-										<img src="img/content/img1.jpg" alt="">
-									</a>
-									<div class="blog__info">
-										<div class="blog__top">
-											<div class="blog__icon">
-												<img src="img/content/img1.jpg" alt="">
-											</div>
-											<span>
-												Андрей Поповцев, 5 сен 2018, 11:20
-											</span>
-										</div>
-										<a href="#" class="blog__title">
-											Как в Star Wars: Knights of the Old Republic получить HK-47 в свою команду
-										</a>
-										<a href="#" class="blog__txt">
-											Разработчики хотят заставить пользователей хотя бы раз пройти игру в режиме глухого человека.
-										</a>
-									</div>
-								</div>	
-							</article>
-							<article class="blog__item m-lg">
-								<div class="blog__in">
-									<a href="#" class="blog__img">
-										<img src="img/content/img2.jpg" alt="">
-									</a>
-									<div class="blog__info">
-										<div class="blog__top">Андрей Поповцев, 5 сен 2018, 11:20</div>
-										<a href="#" class="blog__title">
-											Как в Star Wars: Knights of the Old Republic получить
-										</a>
-										<a href="#" class="blog__txt">
-											Разработчики хотят заставить пользователей хотя бы раз пройти игру в режиме глухого человека. Разработчики хотят заставить пользователей хотя бы раз пройти игру в режиме глухого человека.
-										</a>
-									</div>
-								</div>	
-							</article>
-
-							<article class="blog__item m-md">
-								<div class="blog__in">
-									<a href="#" class="blog__img">
-										<img src="img/content/img1.jpg" alt="">
-									</a>
-									<div class="blog__info">
-										<div class="blog__top">Андрей Поповцев, 5 сен 2018, 11:20</div>
-										<a href="#" class="blog__title">
-											Как в Star Wars: Knights of the Old Republic получить HK-47 в свою команду
-										</a>
-										<a href="#" class="blog__txt">
-											Разработчики хотят заставить пользователей хотя бы раз пройти игру в режиме глухого человека.
-										</a>
-									</div>
-								</div>	
-							</article>
-							<article class="blog__item m-md">
-								<div class="blog__in">
-									<a href="#" class="blog__img">
-										<img src="img/content/img2.jpg" alt="">
-									</a>
-									<div class="blog__info">
-										<div class="blog__top">Андрей Поповцев, 5 сен 2018, 11:20</div>
-										<a href="#" class="blog__title">
-											Прохождение Assassin’s Creed Odyssey
-										</a>
-										<a href="#" class="blog__txt">
-											Разработчики хотят заставить пользователей хотя бы раз пройти игру в режиме глухого человека.
-										</a>
-									</div>
-								</div>	
-							</article>
-							<article class="blog__item m-md">
-								<div class="blog__in">
-									<a href="#" class="blog__img">
-										<img src="img/content/img1.jpg" alt="">
-									</a>
-									<div class="blog__info">
-										<div class="blog__top">Андрей Поповцев, 5 сен 2018, 11:20</div>
-										<a href="#" class="blog__title">
-											Как в Star Wars: Knights of the Old Republic получить
-										</a>
-										<a href="#" class="blog__txt">
-											Разработчики хотят заставить пользователей хотя бы раз пройти игру в режиме глухого человека.
-										</a>
-									</div>
-								</div>	
-							</article>
-						</div>
-						<div class="blog__wrap m-hidden" id="all">
-							<article class="blog__item m-lg">
-								<div class="blog__in">
-									<a href="#" class="blog__img">
-										<img src="img/content/img2.jpg" alt="">
-									</a>
-									<div class="blog__info">
-										<div class="blog__top">Test</div>
-										<a href="#" class="blog__title">
-											Test Test
-										</a>
-										<a href="#" class="blog__txt">
-											Test Test Test
-										</a>
-									</div>
-									
-								</div>	
-							</article>
-							<div class="blog__item m-lg m-complex">
-								<div class="m-complex__wrap">	
-									<article class="blog__in">
-										<div class="blog__info">
-											<div class="blog__top">
-												<div class="blog__icon">
-													<img src="img/content/img1.jpg" alt="">
-												</div>
-												<span>
-													Андрей Поповцев, 5 сен 2018, 11:20
-												</span>
-											</div>
-											<a href="#" class="blog__title">
-												4 способа сэкономить на туристической страховке 
-											</a>
-										</div>
-									</article>	
-									<article class="blog__in">
-										<div class="blog__info">
-											<div class="blog__top">
-												<div class="blog__icon">
-													<img src="img/content/img1.jpg" alt="">
-												</div>
-												<span>
-													Оксана Поповцева, 5 сен 2018, 11:20
-												</span>
-											</div>
-											<a href="#" class="blog__title">
-												20 способов, которыми вас обманывают страховые компании и 15 способов как заставить компании уважать клиента 
-											</a>
-										</div>
-									</article>
-									<article class="blog__in">
-										<div class="blog__info">
-											<div class="blog__top">
-												<div class="blog__icon">
-													<img src="img/content/img1.jpg" alt="">
-												</div>
-												<span>
-													Оксана Поповцева, 5 сен 2018, 11:20
-												</span>
-											</div>
-											<a href="#" class="blog__title">
-												Как переводить деньги на любую карту и не платить комиссию 
-											</a>
-										</div>
-									</article>	
-								</div>
-							</div>
-
-							<article class="blog__item m-md">
-								<div class="blog__in">
-									<a href="#" class="blog__img">
-										<img src="img/content/img1.jpg" alt="">
-									</a>
-									<div class="blog__info">
-										<div class="blog__top">Андрей Поповцев, 5 сен 2018, 11:20</div>
-										<a href="#" class="blog__title">
-											Как в Star Wars: Knights of the Old Republic получить HK-47 в свою команду
-										</a>
-										<a href="#" class="blog__txt">
-											Разработчики хотят заставить пользователей хотя бы раз пройти игру в режиме глухого человека.
-										</a>
-									</div>
-								</div>	
-							</article>
-							<article class="blog__item m-md">
-								<div class="blog__in">
-									<a href="#" class="blog__img">
-										<img src="img/content/img2.jpg" alt="">
-									</a>
-									<div class="blog__info">
-										<div class="blog__top">Андрей Поповцев, 5 сен 2018, 11:20</div>
-										<a href="#" class="blog__title">
-											Прохождение Assassin’s Creed Odyssey
-										</a>
-										<a href="#" class="blog__txt">
-											Разработчики хотят заставить пользователей хотя бы раз пройти игру в режиме глухого человека.
-										</a>
-									</div>
-								</div>	
-							</article>
-							<article class="blog__item m-md">
-								<div class="blog__in">
-									<a href="#" class="blog__img">
-										<img src="img/content/img1.jpg" alt="">
-									</a>
-									<div class="blog__info">
-										<div class="blog__top">Андрей Поповцев, 5 сен 2018, 11:20</div>
-										<a href="#" class="blog__title">
-											Как в Star Wars: Knights of the Old Republic получить HK-47 в свою команду
-										</a>
-										<a href="#" class="blog__txt">
-											Разработчики хотят заставить пользователей хотя бы раз пройти игру в режиме глухого человека.
-										</a>
-									</div>
-								</div>	
-							</article>
-
-
-							<div class="blog__item m-lg m-complex">
-								<div class="m-complex__wrap">	
-									<article class="blog__in">
-										<div class="blog__info">
-											<div class="blog__top">
-												<div class="blog__icon">
-													<img src="img/content/img1.jpg" alt="">
-												</div>
-												<span>
-													Андрей Поповцев, 5 сен 2018, 11:20
-												</span>
-											</div>
-											<a href="#" class="blog__title">
-												4 способа сэкономить на туристической страховке 
-											</a>
-										</div>
-									</article>	
-									<article class="blog__in">
-										<div class="blog__info">
-											<div class="blog__top">
-												<div class="blog__icon">
-													<img src="img/content/img1.jpg" alt="">
-												</div>
-												<span>
-													Оксана Поповцева, 5 сен 2018, 11:20
-												</span>
-											</div>
-											<a href="#" class="blog__title">
-												20 способов, которыми вас обманывают страховые компании и 15 способов как заставить компании уважать клиента 
-											</a>
-										</div>
-									</article>
-									<article class="blog__in">
-										<div class="blog__info">
-											<div class="blog__top">
-												<div class="blog__icon">
-													<img src="img/content/img1.jpg" alt="">
-												</div>
-												<span>
-													Оксана Поповцева, 5 сен 2018, 11:20
-												</span>
-											</div>
-											<a href="#" class="blog__title">
-												Как переводить деньги на любую карту и не платить комиссию 
-											</a>
-										</div>
-									</article>	
-								</div>
-							</div>
-							<article class="blog__item m-lg">
-								<div class="blog__in">
-									<a href="#" class="blog__img">
-										<img src="img/content/img2.jpg" alt="">
-									</a>
-									<div class="blog__info">
-										<div class="blog__top">Test</div>
-										<a href="#" class="blog__title">
-											Test Test
-										</a>
-										<a href="#" class="blog__txt">
-											Test Test Test
-										</a>
-									</div>
-									
-								</div>	
-							</article>
-						</div>
+						
 					</div>
-					<div class="paging">
-						<div class="paging__top">
-							<a href="#" class="paging__toggle paging__prev"><span>Сюда</span></a>
-							<a href="#" class="paging__toggle paging__next"><span>Туда</span></a>
-
-						</div>
-						<div class="paging__list">
-							<a href="#" class="paging__item m-less"></a>
-							<span class="paging__item active">1</span>
-							<a href="#" class="paging__item">2</a>
-							<a href="#" class="paging__item">3</a>
-							<a href="#" class="paging__item">4</a>
-							<a href="#" class="paging__item">5</a>
-							<a href="#" class="paging__item">6</a>
-							<a href="#" class="paging__item m-more"></a>
-						</div>
-					</div>
-				<!--end CONTENT-PART -->
+					<!--end CONTENT-PART -->
 				</div>
 			</main>
 		</div><!-- END LAYOUT-->
 		<footer class="page-footer">
 			<div class="container-fluid">
-				<div class="page-footer__top">Издание о финансах. Как заработать, сохранить и приумножить деньги</div>
 				<div class="page-footer__wrap">
+					<div class="page-footer__top">Издание о финансах. Как заработать, сохранить и приумножить деньги</div>
+				
+					<div class="page-footer-socials">
+						<div class="page-footer-socials__top">
+							Подписывайтесь на социальные сети: 
+						</div>
+						<div class="page-footer-socials__list">
+							<a href="#" class="page-footer-socials__link m-fb"></a>
+							<a href="#" class="page-footer-socials__link m-vk"></a>
+							<a href="#" class="page-footer-socials__link m-insta"></a>
+						</div>
+					</div>
+
 					<div class="page-footer__links">
-						<a href="#" class="page-footer__link">Пользовательское соглашение</a>
-						<a href="#" class="page-footer__link">Мы в Telegram</a>
+						
+						<a href="#" class="page-footer__link">
+							Пользовательское<br>
+							соглашение
+						</a>
+						<div class="page-footer__copy">
+							<div class="copy-pre">
+								&copy; Проект компании
+							</div> 
+							<a href="#">«Манго Страхование».</a>
+							<div class="page-footer__age">18+</div>
+						</div>
 					</div>
-					<div class="page-footer__copy">
-						&copy; Проект компании <a href="#">«Манго Страхование».</a>
-						<div class="page-footer__age">18+</div>
-					</div>
+					
 				</div>
 			</div>
 		</footer>
@@ -583,14 +625,5 @@
 
 		<script src="js/libs.min.js"></script>
 		<script src="js/interface.js"></script>
-
-		<script type="text/javascript">
-			$(".paging__toggle").mouseenter(function() {
-			    $(this).siblings(".paging__toggle").addClass('unactive');
-			    
-			}).mouseleave(function() {
-			    $(this).siblings(".paging__toggle").removeClass('unactive');
-			});
-		</script>
 	</body>
 </html>
