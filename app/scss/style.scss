@@ -1637,8 +1637,22 @@ $pcolor: slategray;
 	}
 	.menu-mobile__link{
 		margin-bottom: 16px;
+		position: relative;
 		&:last-child{
 			margin-bottom: 0;
+		}
+		&.m-active{
+			pointer-events: none;
+			&:before{
+				content: "";
+				display: inline-block;
+				width: 4px;
+				height: 100%;
+				background: #FF8060;
+				position: absolute;
+				left: -10px;
+				top: -1px;
+			}
 		}
 	}
 }

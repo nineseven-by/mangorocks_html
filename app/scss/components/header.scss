@@ -263,6 +263,7 @@
 	margin-bottom: 17px;
 	color: #0B1D42;
 	transition: color .3s ease;
+	position: relative;
 	&:last-child{
 		margin-bottom: 0;
 	}
@@ -275,6 +276,19 @@
 	}
 	&:hover{
 		color: #FF8E54;
+	}
+	&.m-active{
+		pointer-events: none;
+		&:before{
+			content: "";
+			display: inline-block;
+			width: 4px;
+			height: 100%;
+			background: #FF8060;
+			position: absolute;
+			left: -10px;
+			top: -1px;
+		}
 	}
 }
 .menu-mobile__icon{

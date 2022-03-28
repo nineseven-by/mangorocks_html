@@ -218,6 +218,12 @@
 	.interesting__slider .slick-arrow.slick-prev {
 		left: -27px;
 	}
+	.index-chapter .menu-mobile__link.m-active{
+		color: #FF8060;
+	}
+	.index-chapter .menu-mobile__link.m-active:before{
+		display: none;
+	}
 }
 
 @media screen and (max-width: 900px){
