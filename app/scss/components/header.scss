@@ -19,7 +19,13 @@
 	text-transform: uppercase;
 	span{
 		display: inline-block;
+		-webkit-transition: -webkit-transform .3s ease;
+		transition: -webkit-transform .3s ease;
 		transition: transform .3s ease;
+		position: relative;
+		top: -8px;
+		padding-left: 5px;
+		transition: transform .3s ease, -webkit-transform .3s ease;
 	}
 	// &:hover{
 	// 	span{
