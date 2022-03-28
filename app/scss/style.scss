@@ -589,3 +589,32 @@ img.emoji {
 
 
 
+
+
+
+.staff__item {
+    width: 33.333%;
+}
+.staff__item>div{
+	align-items: center;
+}
+.staff__item img{
+	width: 72px;
+	min-height: 72px;
+	margin: 0 20px 0 0;
+}
+.staff__info {
+    padding: 15px 15px 15px 0!important;
+}
+
+@media screen and (max-width: 992px){
+	.staff__item{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.staff__item{
+		width: 100%;
+	}
+}
