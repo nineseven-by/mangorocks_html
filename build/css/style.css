@@ -4552,6 +4552,9 @@ img.emoji {
   .p-author-view__title {
     font-size: 40px;
     font-family: "cofo_bold"; }
+  .p-author-view h1 {
+    margin-bottom: 0;
+    font-size: 40px; }
 
 .p-author-msg {
   background: #F7F7F7;
@@ -6028,7 +6031,11 @@ img.emoji {
         justify-content: center; }
   .layout.m-index .memo h2:before {
     margin-right: 0;
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+  .p-author-view h1 {
+    margin-top: 20px;
+    min-width: 100%;
+    font-size: 30px; } }
 
 @media screen and (max-width: 576px) {
   .img-caption {
