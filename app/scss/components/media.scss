@@ -472,6 +472,10 @@
 	.p-author-view__title{
 		font-size: 30px;
 	}
+	.p-author.m-default .p-author-msg,
+	.p-author.m-default .p-author-links{
+		display: block;
+	}
 }
 
 @media screen and (max-width: 600px){
